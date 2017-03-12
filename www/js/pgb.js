@@ -30,3 +30,11 @@ function McGorisInfo() {
 
 	document.getElementById("deviceDetails").innerHTML = info;	
 }
+
+function McGorisHobby() {
+
+	info =  'Zainteresowania :   '    + 'Astronomia';
+			
+
+	document.getElementById("deviceDetails").innerHTML = info;	
+}
