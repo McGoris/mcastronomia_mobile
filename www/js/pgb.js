@@ -8,7 +8,7 @@ function onDeviceReady() {
 }
 
 	
-}
+
 
 function McGorisInfo() {
 
