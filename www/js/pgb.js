@@ -3,7 +3,7 @@ function init() {
 }
 
 function onDeviceReady() {
-	navigator.notification.beep(2);
+	
 	McGorisInfo();
 }
 
@@ -19,13 +19,6 @@ function McGorisInfo() {
 			'Kierunek:    : '     + 'informatyka' + '<br>' + 
 			'Semestr : '  + '5' + '<br>';
 
-	document.getElementById("deviceDetails").innerHTML = info;	
+	document.getElementById("McGorisDetails").innerHTML = info;	
 }
 
-function McGorisHobby() {
-
-	info =  'Zainteresowania :   '    + 'Astronomia';
-			
-
-	document.getElementById("deviceDetails").innerHTML = info;	
-}

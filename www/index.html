@@ -10,37 +10,49 @@
 	</head>
 	<body onload="init()">
 		
-		<!-- My app main page -->
+		<!-- Strona glowna -->
 		<div data-role="page" id="pageone">
+		
+		
 		  <div data-role="header">
-			<h1>Hello World!</h1>
+			<h1>McAstronomia Mobile (C)</h1>
 		  </div>
-		  <div data-role="main" class="ui-content">
-			<p>Hi, I'm your mobile device</p>	
+		  
+		  
+		  <div data-role="main" class="ui-content" id="main" style="background-color: #002;">
+			<p>Witaj </p>	
 			
-			<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="McGorisInfo()">Information about me!</a>
-
+			<a href="http://www.mcastronomia.blogspot.com" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #900; "><font color="white"><i> BLOG ASTRONOMICZNY </i></font></a>
+			<br/>
+			<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #900; " onclick="McGorisInfo()"><font color="white"><i> KALKULATOR ASTRONOMICZNY </i> </font></a>
+			<br/>
+			<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="McGorisInfo()" style="background-color: #900; "><font color="white"><i>QUIZ ASTRONOMICZNY</i></font></a>
+			<br/>
+			<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="McGorisInfo()" style="background-color: #900; "><font color="white">GRA WISIELEC</font></a>
+			<br/>
+			<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="McGorisInfo()" style="background-color: #900; "><font color="white">INFORMACJE O MNIE</font></a>
+			<br/>
+		
+			
 		  </div>
-		  <div data-role="footer" data-position="fixed">
-			<h1>(c) Dżon Brałn</h1>
+		  <div data-role="footer" data-position="fixed" style="background-color: #b02; ">
+			<h1>(c) McGoris Polska</h1>
 		  </div> 
 		</div> 
 		
-		<!-- Mobile device details page -->
-		<div data-role="page" id="details" data-dialog="true">
+		<!-- Strona nr 2 -->
+		<div data-role="page" id="details">
+		
 			<div data-role="header" data-theme="a">
-				<h1>It's me</h1>
+				<h1> O mnie </h1>
 				
 			</div>
-			<div role="main" class="ui-content">
-				<p id="deviceDetails">Place for device details ...</p>
+			<div data-role="main" class="ui-content">
+				<h2> Zawartość </h2>
+				<a href="#pageone" class="ui-btn ui-btn-inline ui-corner-all ui-shadow"> Powrót do strony głównej </a>
 				
 			</div>
-			<div data-role="page" class="ui-content">
-				<p id="deviceDetails">
-				<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="McGorisHobby()">Zainteresowania!</a></p>
-				
-			</div>
+			
 			
 		</div>		
 		
