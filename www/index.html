@@ -5,6 +5,7 @@
 		<script src="js/pgb.js"></script>
 		<script src="cordova.js"></script>
 		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
 		<script src="js/jquery-2.1.4.min.js"></script>
 		<script src="js/jquery.mobile-1.4.5.min.js"></script>
 	</head>
@@ -14,39 +15,39 @@
 		<div data-role="page" id="pageone" align="center">
 		
 		
-		  <div data-role="header" style="background-color: #b02;">
-			<h1>McAstronomia Mobile (C)</h1>
+		  <div data-role="header" style="background-color: #444;">
+			<h1><font color="#aaa"> McAstronomia Mobile (C) </font></h1>
 		  </div>
 		  
 		  
-		  <div data-role="main" class="ui-content" id="main" style="background-color: #002;">
+		  <div data-role="main" class="ui-content" id="main" style="background-color: #001;">
 			<p><font color="white"> Witaj! </font></p>	
 			
-			<a href="http://www.mcastronomia.blogspot.com" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #700; width: 70%; "><font color="white"><i> BLOG ASTRONOMICZNY </font></a>
+			<a href="http://www.mcastronomia.blogspot.com" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #003; width: 70%; "><font color="white"><i> BLOG ASTRONOMICZNY </font></a>
 			<br><br>
-			<a href="#kalkulator" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #700; width: 70%; " onclick="McGorisInfo()"><font color="white"> KALKULATOR ASTRONOMICZNY  </font></a>
+			<a href="#kalkulator" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #003; width: 70%; " onclick="McGorisInfo()"><font color="white"> KALKULATOR ASTRONOMICZNY  </font></a>
 			<br><br>
-			<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="McGorisInfo()" style="background-color: #700; width: 70%;"><font color="white">QUIZ ASTRONOMICZNY</font></a>
+			<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="McGorisInfo()" style="background-color: #003; width: 70%;"><font color="white">QUIZ ASTRONOMICZNY</font></a>
 			<br><br>
-			<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="McGorisInfo()" style="background-color: #700; width: 70%;"><font color="white">GRA WISIELEC</font></a>
+			<a href="#wisielec" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="McGorisInfo()" style="background-color: #003; width: 70%;"><font color="white">GRA WISIELEC</font></a>
 			<br><br>
-			<a href="#info" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="McGorisInfo()" style="background-color: #700; width: 70%;"><font color="white">INFORMACJE O MNIE</i></font></a>
+			<a href="#info" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="McGorisInfo()" style="background-color: #003; width: 70%;"><font color="white">INFORMACJE O MNIE</i></font></a>
 			<br>
 			<br>
 			<br>
 		
 			
 		  </div>
-		  <div data-role="footer" data-position="fixed" style="background-color: #b02; ">
+		  <div data-role="footer" data-position="fixed" style="background-color: #d00; ">
 		    
-			<h1>(c) McGoris Polska</h1>
+		    <h1>(c) McGoris Polska</h1>
 		  </div> 
 		</div> 
 		
 		<!-- Strona nr 2 -->
 		<div data-role="page" id="details">
 		
-			<div data-role="header" data-theme="a">
+			<div data-role="header" style="background-color: #d00;">
 				<h1> O mnie </h1>
 				
 			</div>
@@ -65,15 +66,17 @@
 				<a href="#pageone" class="ui-btn ui-btn-inline ui-corner-all ui-shadow"> Powrót do strony głównej </a>
 				
 			</div>
-			<div data-role="footer" data-position="fixed" style="background-color: #b02; ">
+			<div data-role="footer" data-position="fixed" style="background-color: #d00; ">
 			<h1>(c) McGoris Polska</h1>
 		  </div> 
 			
 		</div>
 
+		<!-- Kalkulator -->
+		
 		<div data-role="page" id="kalkulator">
 		
-			<div data-role="header" data-theme="a">
+			<div data-role="header" style="background-color: #d00;">
 				<h1> O mnie </h1>
 				
 			</div>
@@ -90,26 +93,57 @@
 			
 		</div>		
 		
+		<!-- informacje -->
+		
 		<div data-role="page" id="info">
 		
-			<div data-role="header" data-theme="a">
+			<div data-role="header" style="background-color: #d00;">
 				<h1> O mnie </h1>
 				
 			</div>
-			<div data-role="main" class="ui-content" align="center">
-			<table border="0" style="width: 30%; ">
-				<tr><td> Imię: </td><td> Marcin </td></tr>
-				<tr><td> Nazwisko: </td><td> Goryl </td></tr>
-				
-			</table>	
-			</div>
-			<div data-role="footer" data-position="fixed" style="background-color: #b02; ">
-			<a href="#pageone" class="ui-btn ui-btn-inline ui-corner-all ui-shadow"> POWRÓT </a>
-			<h1>(c) McGoris Polska</h1>
 			
-		  </div> 
+			<div data-role="main" class="ui-content" align="center">
+				<table border="0" style="width: 30%; ">
+					<tr><td> Imię: </td><td> Marcin </td></tr>
+					<tr><td> Nazwisko: </td><td> Goryl </td></tr>
+				
+				</table>	
+			</div>
+			
+			<div data-role="footer" data-position="fixed" style="background-color: #d00;">
+				<a href="#pageone" class="ui-btn ui-btn-inline ui-corner-all ui-shadow"> POWRÓT </a>
+				<h1>(c) McGoris Polska</h1>
+			
+			</div> 
 			
 		</div>		
+		
+		<!-- Wisielec -->
+		
+		<div data-role="page" id="wisielec">
+		
+			<div data-role="header" style="background-color: #d00;">
+				<h1> O mnie </h1>
+				
+			</div>
+				<div data-role="main" class="ui-content">
+					<h2> Zawartość </h2>
+					wisielce dziady
+					<br>
+					Zawartość<br>
+					Zawartość<br>
+					Zawartość<br><br><br><br><br><br><br><br>
+					ZawartośćZawartość<br>
+						Zawartość<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					dfgfdg
+					fghgfhg<br><br><br><br><br><br><br><br><br><br>
+					gggg<br>
+					<a href="#pageone" class="ui-btn ui-btn-inline ui-corner-all ui-shadow"> Powrót do strony głównej </a>
+				
+				</div>
+			<div data-role="footer" data-position="fixed" style="background-color: #d00; ">
+			<h1>(c) McGoris Polska</h1>
+		  </div> 
 		
 		
 	</body>
