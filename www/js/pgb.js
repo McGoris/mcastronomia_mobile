@@ -21,4 +21,3 @@ function McGorisInfo() {
 
 	document.getElementById("McGorisDetails").innerHTML = info;	
 }
-
