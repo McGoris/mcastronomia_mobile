@@ -1,23 +1,28 @@
-function init() {
-	document.addEventListener("deviceready",onDeviceReady, false);
-}
 
-function onDeviceReady() {
+var haslo = "Galaktyczki w Pannie";
+
+haslo = haslo.toUpperCase();
+
+var dlugosc = haslo.length;
+
+var haslo1 = "";
+
+
+for (i=0; i<dlugosc; i++)
+{
+	if (haslo.charAt(i)==" ") haslo1 = haslo1 + " ";
+	else haslo1 = haslo1 + "-";
 	
-	McGorisInfo();
-}
-
 	
-
-
-function McGorisInfo() {
-
-	info =  'Imie   : '    + 'McGoris' + '<br>' + 
-			'Nazwisko    : '     + 'Goryl' + '<br>' + 
-			'E-mail : '  + 'mcgoris@o2.pl' + '<br>' + 
-			'Strona internetowa: ' + 'mcastronomia.blogspot.com' + '<br>' + 
-			'Kierunek:    : '     + 'informatyka' + '<br>' + 
-			'Semestr : '  + '5' + '<br>';
-
-	document.getElementById("McGorisDetails").innerHTML = info;	
 }
+
+
+
+function wypisz_haslo()
+{
+	
+	document.getElementById("plansza").innerHTML = haslo1;
+	
+}
+
+window.onload = wypisz_haslo;
