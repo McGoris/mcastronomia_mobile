@@ -25,4 +25,20 @@ function wypisz_haslo()
 	
 }
 
-window.onload = wypisz_haslo;
+window.onload = start;
+
+function start()
+
+{
+	var div = "";
+	
+	for (i=0; i<=34; i++)
+	{
+		div = div + '<div class="litera">A</div>';
+	}
+	
+	
+	document.getElementById("alfabet").innerHTML = div;
+	
+	wypisz_haslo();
+}
