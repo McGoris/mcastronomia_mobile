@@ -5,6 +5,10 @@ haslo = haslo.toUpperCase();
 
 var dlugosc = haslo.length;
 var ilosc_szans = 0;
+var ilosc_dobrych = 0;
+var ilosc_liter = 0;
+var ilosc_spacji = 0;
+
 
 
 var haslo1 = "";
@@ -12,7 +16,11 @@ var haslo1 = "";
 
 for (i=0; i<dlugosc; i++)
 {
-	if (haslo.charAt(i)==" ") haslo1 = haslo1 + " ";
+	if (haslo.charAt(i)==" ")
+	{
+	haslo1 = haslo1 + " ";
+	ilosc_spacji++;
+	}
 	else haslo1 = haslo1 + "-";
 	
 	
@@ -107,6 +115,7 @@ function sprawdz(nr)
 		{
 			haslo1 = haslo1.ustawZnak(i,litery[nr]);
 			wynik = true;
+			ilosc_liter++;
 		}
 		
 	}
@@ -117,7 +126,15 @@ function sprawdz(nr)
 		document.getElementById(element).style.background = "#005500";
 		document.getElementById(element).style.color = "#fff";
 		document.getElementById(element).style.cursor = "default";
-		
+		document.getElementById(element).setAttribute("onclick",";");
+		ilosc_dobrych++;
+			
+			if (ilosc_liter == haslo1.length-ilosc_spacji)
+			{
+				
+				alert("Wygrałeś");
+				location.reload();
+			}
 	}
 	else
 	{
@@ -125,13 +142,18 @@ function sprawdz(nr)
 		document.getElementById(element).style.background = "#660000";
 		document.getElementById(element).style.color = "#fff";
 		document.getElementById(element).style.cursor = "default";
+		document.getElementById(element).setAttribute("onclick",";");
+		ilosc_liter++;
 		ilosc_szans++;
 		
 		var obrazki = "img/A" +ilosc_szans+ ".jpg";
 		document.getElementById("szubienica").innerHTML = '<img src="'+obrazki+'" alt="" />';
 		
+		
+		
 		if (ilosc_szans == 9) 
 		{
+			
 			alert("Przegrałeś");
 			location.reload();
 		}
