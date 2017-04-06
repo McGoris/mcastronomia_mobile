@@ -1,5 +1,5 @@
 
-var hasla = new Array(71);
+var hasla = new Array(80);
 
 hasla[0] = "William herschel";
 hasla[1] = "gromada galaktyk w pannie";
@@ -71,7 +71,18 @@ hasla[66] = "fuzja jądrowa";
 hasla[67] = "rozbłysk gamma";
 hasla[68] = "zachmurzone niebo";
 hasla[69] = "księżyc w pełni";
-hasla[70] = "księżyc w nowiu";
+hasla[70] = "pełnia księżyca";
+hasla[71] = "bezksiężycowe niebo";
+hasla[72] = "tranzyt wenus na tle słońca";
+hasla[73] = "ganimedes";
+hasla[74] = "księżyce jowisza";
+hasla[75] = "kometa lovejoy";
+hasla[76] = "gwiazdozbiór byka";
+hasla[77] = "niebo południowe";
+hasla[78] = "niebo północne";
+hasla[79] = "przesilenie letnie";
+
+
 
 
 
@@ -221,7 +232,7 @@ function sprawdz(nr)
 			{
 				
 				alert("Wygrałeś");
-				setTimeout(function(){ location.reload(); }, 1500);
+				setTimeout(function(){ location.reload(); }, 1000);
 			}
 	}
 	else
@@ -243,7 +254,7 @@ function sprawdz(nr)
 		{
 			
 			alert("Przegrałeś");
-			setTimeout(function(){ location.reload(); }, 1500);
+			setTimeout(function(){ location.reload(); }, 1000);
 		}
 		
 	}
