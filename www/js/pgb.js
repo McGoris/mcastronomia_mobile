@@ -74,7 +74,7 @@ function start()
 	for (i=0; i<=34; i++)
 	{
 		divy = divy + '<div class="litera">'+litery[i]+'</div>';
-		if((i+1) % 7 == 0) 
+		if((i+1) % 4 == 0) 
 			{	
 				divy = divy + '<div style="clear:both;"></div>';
 			}
