@@ -1,5 +1,5 @@
 
-var hasla = new Array(80);
+var hasla = new Array(120);
 
 hasla[0] = "William herschel";
 hasla[1] = "gromada galaktyk w pannie";
@@ -81,6 +81,46 @@ hasla[76] = "gwiazdozbiór byka";
 hasla[77] = "niebo południowe";
 hasla[78] = "niebo północne";
 hasla[79] = "przesilenie letnie";
+hasla[80] = "Wężownik";
+hasla[81] = "Pas oriona";
+hasla[82] = "supermasywna czarna dziura";
+hasla[83] = "kosmonautyka";
+hasla[84] = "ogólna teoria względności";
+hasla[85] = "wielki zderzacz hadronów";
+hasla[86] = "akcelerator cząstek";
+hasla[87] = "kwazar";
+hasla[88] = "pulsar milisekundowy";
+hasla[89] = "Brązowy karzeł";
+hasla[90] = "alfa centauri";
+hasla[91] = "statek argonautów";
+hasla[92] = "syriusz";
+hasla[93] = "io";
+hasla[94] = "srebrny glob";
+hasla[95] = "bogactwo życia na ziemi";
+hasla[96] = "czas i przestrzeń";
+hasla[97] = "otchłań";
+hasla[98] = "czerwony nadolbrzym";
+hasla[99] = "uy scuti";
+hasla[100] = "najjaśniejsza gwiazda na niebie";
+hasla[101] = "zmierzch";
+hasla[102] = "tuż nad ranem";
+hasla[103] = "wybuch supernowej";
+hasla[104] = "wszechświat";
+hasla[105] = "ekspansja wszechświata";
+hasla[106] = "magnetar";
+hasla[107] = "gwiazda barnarda";
+hasla[108] = "ruch własny gwiazd";
+hasla[109] = "wschód słońca";
+hasla[110] = "zorza polarna";
+hasla[111] = "aurora borealis";
+hasla[112] = "aurora australis";
+hasla[113] = "biegun północny";
+hasla[114] = "równonoc wiosenna";
+hasla[115] = "równonoc jesienna";
+hasla[116] = "rektascensja";
+hasla[117] = "deklinacja";
+hasla[118] = "ekliptyka";
+hasla[119] = "mgławica dyfuzyjna";
 
 
 
