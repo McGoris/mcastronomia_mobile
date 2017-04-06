@@ -32,6 +32,21 @@
 	
 }
 
+#pole1
+{
+	width: 50%;
+	text-align: left;
+	float: left;
+	
+}
+
+#pole2
+{
+	width: 50%;
+	float: left;
+	
+}
+
 
 .litera
 

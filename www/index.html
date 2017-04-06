@@ -17,7 +17,7 @@
 		
 		
 		  <div data-role="header" data-position="fixed" style="background-color: #444;">
-			<h1><font color="#aaa"> McAstronomia Mobile (C) </font></h1>
+			<h2><font color="#aaa"> McAstronomia Mobile(C) </font></h2>
 		  </div>
 		  
 		  
@@ -76,17 +76,47 @@
 
 		<!-- Kalkulator -->
 		
-		<div data-role="page" id="kalkulator">
+		<div data-role="page" id="kalkulator" style="background-color: #002;">
 		
 			<div data-role="header" data-position="fixed" style="background-color: #d00;">
 				<h1> O mnie </h1>
 				
 			</div>
 			<div data-role="main" class="ui-content">
-				<h2> Zsdfdsfsdefsdfds </h2>
 				
+				<div id="pole1" align="center">
+				<input type="integer"> </input>
+				<br>
+				<table border="0">
+				<tr><td> AU(Jednostki astronomiczne)</td><td><input type="radio" id="radio_au1" name="a" >  </input></td>
+				</tr>
+					<tr><td>Parseki</td><td><input type="radio" id="radio_pc1" name="a">  </input></td>
+				</tr>
+					<tr><td>Kilometry</td><td> <input type="radio" id="radio_km1" name="a">	</input></td>
+				</tr>
+					<tr><td>Lata świetlne</td><td> <input type="radio" id="radio_ly1" checked name="a">	</input></td>
+				</tr>
+				</table>
 				
-			</div>
+				</div>
+				<div id="pole2" align="center">
+			
+				<input type="integer"> </input>
+				<br>
+			<table border="0">
+				<tr><td> AU(Jednostki astronomiczne)</td><td><input type="radio" id="radio_au2" name="b">  </input></td>
+				</tr>
+					<tr><td>Parseki</td><td><input type="radio" id="radio_pc2" name="b">  </input></td>
+				</tr>
+					<tr><td>Kilometry</td><td> <input type="radio" id="radio_km2" checked name="b">	</input></td>
+				</tr>
+					<tr><td>Lata świetlne</td><td> <input type="radio" id="radio_ly2" name="b">	</input></td>
+				</tr>
+				</table>
+				
+			
+				
+				</div>
 			<div data-role="footer" data-position="fixed" style="background-color: #b02; ">
 			<a href="#pageone" class="ui-btn ui-btn-inline ui-corner-all ui-shadow"> POWRÓT </a>
 			<h1>(c) McGoris Polska</h1>
@@ -97,7 +127,7 @@
 		
 		<!-- informacje -->
 		
-		<div data-role="page" id="info">
+		<div data-role="page" id="info" style="background-color: #002;">
 		
 			<div data-role="header" style="background-color: #d00;">
 				<h1> O mnie </h1>
