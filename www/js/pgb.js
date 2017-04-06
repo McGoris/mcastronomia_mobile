@@ -1,5 +1,51 @@
 
-var haslo = "Galaktyczki w Pannie";
+var hasla = new Array(30);
+
+hasla[0] = "William herschel";
+hasla[1] = "Galaktyczki w Pannie";
+hasla[2] = "Obłoki magellana";
+hasla[3] = "strzelec";
+hasla[4] = "teleskop";
+hasla[5] = "słońce w znaku lwa";
+hasla[6] = "Galaktyka Andromedy";
+hasla[7] = "Obserwatorium";
+hasla[8] = "Myśliwy Orion";
+hasla[9] = "Herkules";
+hasla[10] = "Gwiazdozbiór Kameleona";
+hasla[11] = "Światło zodiakalne";
+hasla[12] = "Efekt Dopplera";
+hasla[13] = "Przesunięcie ku czerwieni";
+hasla[14] = "Koziorożec";
+hasla[15] = "Znaki zodiaku";
+hasla[16] = "Zaćmienie słońca";
+hasla[17] = "Astronomia";
+hasla[18] = "Żyroskop";
+hasla[19] = "Zanieczyszczenie światłem";
+hasla[20] = "Rozgwieżdżone niebo";
+hasla[21] = "Astrofotografia";
+hasla[22] = "Skorpion";
+hasla[23] = "Kometa Halleya";
+hasla[24] = "Rozbłyski gamma";
+hasla[25] = "Odległe światy";
+hasla[26] = "La superba";
+hasla[27] = "Betelgeza";
+hasla[28] = "supernowa";
+hasla[29] = "Błękitny nadolbrzym";
+
+
+
+function losuj()
+{
+	var liczba = Math.round(Math.random()*hasla.length);
+	losowe_haslo = hasla[liczba];
+	
+}
+
+losuj();
+
+var haslo = losowe_haslo;
+
+
 
 haslo = haslo.toUpperCase();
 
@@ -36,6 +82,7 @@ function wypisz_haslo()
 }
 
 window.onload = start;
+
 
 var litery = new Array(35);
 
