@@ -4,6 +4,8 @@ var haslo = "Galaktyczki w Pannie";
 haslo = haslo.toUpperCase();
 
 var dlugosc = haslo.length;
+var ilosc_szans = 0;
+
 
 var haslo1 = "";
 
@@ -97,11 +99,41 @@ String.prototype.ustawZnak = function(miejsce, znak)
 
 function sprawdz(nr)
 {
+	var wynik = false;
+	
 	for (i=0; i<dlugosc; i++)
 	{
 		if (haslo.charAt(i)== litery[nr])
 		{
 			haslo1 = haslo1.ustawZnak(i,litery[nr]);
+			wynik = true;
+		}
+		
+	}
+	
+	if(wynik == true)
+	{
+		var element = "lit" + nr;
+		document.getElementById(element).style.background = "#005500";
+		document.getElementById(element).style.color = "#fff";
+		document.getElementById(element).style.cursor = "default";
+		
+	}
+	else
+	{
+		var element = "lit" + nr;
+		document.getElementById(element).style.background = "#660000";
+		document.getElementById(element).style.color = "#fff";
+		document.getElementById(element).style.cursor = "default";
+		ilosc_szans++;
+		
+		var obrazki = "img/A" +ilosc_szans+ ".jpg";
+		document.getElementById("szubienica").innerHTML = '<img src="'+obrazki+'" alt="" />';
+		
+		if (ilosc_szans == 9) 
+		{
+			alert("Przegrałeś");
+			location.reload();
 		}
 		
 	}
@@ -109,3 +141,5 @@ function sprawdz(nr)
 	wypisz_haslo();
 
 }
+
+
