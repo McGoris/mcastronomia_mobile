@@ -1,8 +1,8 @@
 
-var hasla = new Array(30);
+var hasla = new Array(71);
 
 hasla[0] = "William herschel";
-hasla[1] = "Galaktyczki w Pannie";
+hasla[1] = "gromada galaktyk w pannie";
 hasla[2] = "Obłoki magellana";
 hasla[3] = "strzelec";
 hasla[4] = "teleskop";
@@ -31,6 +31,47 @@ hasla[26] = "La superba";
 hasla[27] = "Betelgeza";
 hasla[28] = "supernowa";
 hasla[29] = "Błękitny nadolbrzym";
+hasla[30] = "Konstelacja Strzelca";
+hasla[31] = "Mgławica Oriona";
+hasla[32] = "Rho Ophiuchi";
+hasla[33] = "Neptun";
+hasla[34] = "Jowisz";
+hasla[35] = "Uran i Neptun";
+hasla[36] = "Teleskop Keplera";
+hasla[37] = "Egzoplaneta";
+hasla[38] = "Kalejdoskop";
+hasla[39] = "Wielka niedźwiedzica";
+hasla[40] = "Mala niedźwiedzica";
+hasla[41] = "Mikołaj Kopernik";
+hasla[42] = "Skorpion";
+hasla[43] = "Heliocentryzm";
+hasla[44] = "kosmita";
+hasla[45] = "Obłok molekularny";
+hasla[46] = "fizyka kwantowa";
+hasla[47] = "bozon higgsa";
+hasla[48] = "cząstki elementarne";
+hasla[49] = "Biały karzeł";
+hasla[50] = "Konstelacja Kasjopei";
+hasla[51] = "Gromada kulista";
+hasla[52] = "gromada otwarta";
+hasla[53] = "ptolemeusz";
+hasla[54] = "mgławica kraba";
+hasla[55] = "Wenus i mars";
+hasla[56] = "centrum galaktyki";
+hasla[57] = "droga mleczna";
+hasla[58] = "pasy pyłowe";
+hasla[59] = "globule boka";
+hasla[60] = "gwiazdozbiory zodiakalne";
+hasla[61] = "spójrz w niebo";
+hasla[62] = "niezbadany ocean prawdy";
+hasla[63] = "geocentryzm";
+hasla[64] = "teleskop cassegraina";
+hasla[65] = "zwrotnik raka";
+hasla[66] = "fuzja jądrowa";
+hasla[67] = "rozbłysk gamma";
+hasla[68] = "zachmurzone niebo";
+hasla[69] = "księżyc w pełni";
+hasla[70] = "księżyc w nowiu";
 
 
 
@@ -180,7 +221,7 @@ function sprawdz(nr)
 			{
 				
 				alert("Wygrałeś");
-				location.reload();
+				setTimeout(function(){ location.reload(); }, 1500);
 			}
 	}
 	else
@@ -202,7 +243,7 @@ function sprawdz(nr)
 		{
 			
 			alert("Przegrałeś");
-			location.reload();
+			setTimeout(function(){ location.reload(); }, 1500);
 		}
 		
 	}
