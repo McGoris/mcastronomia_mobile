@@ -34,18 +34,23 @@
 
 #pole1
 {
-	width: 50%;
+	width: 20%;
 	text-align: left;
 	float: left;
+	margin-top: 40px;
+	padding: 10px;
 	
 }
 
 #pole2
 {
-	width: 50%;
+	width: 20%;
 	float: left;
-	
+	float: left;
+	margin-top: 40px;
+	padding: 10px;
 }
+
 
 
 .litera
