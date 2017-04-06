@@ -143,7 +143,7 @@ function sprawdz(nr)
 		document.getElementById(element).style.color = "#fff";
 		document.getElementById(element).style.cursor = "default";
 		document.getElementById(element).setAttribute("onclick",";");
-		ilosc_liter++;
+	
 		ilosc_szans++;
 		
 		var obrazki = "img/A" +ilosc_szans+ ".jpg";
