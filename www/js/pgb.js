@@ -73,7 +73,8 @@ function start()
 	
 	for (i=0; i<=34; i++)
 	{
-		divy = divy + '<div class="litera">'+litery[i]+'</div>';
+		var elementy = "lit" + i;
+		divy = divy + '<div class="litera" onclick="sprawdz('+i+')" id="'+elementy+'">'+litery[i]+'</div>';
 		if((i+1) % 4 == 0) 
 			{	
 				divy = divy + '<div style="clear:both;"></div>';
@@ -85,3 +86,17 @@ function start()
 	
 	wypisz_haslo();
 }
+
+function sprawdz(nr)
+{
+	alert(nr);
+	
+}
+
+function wylacz()
+{
+
+	document.getElementById("wylacz").innerHTML = wylacz;	
+	
+	window.close();
+}	

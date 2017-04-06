@@ -42,7 +42,24 @@
 	padding: 2px;
 	margin: 2px;
 	border: 2px solid gray;
-	border-radius: 10px;
+	border-radius: 8px;
 	float: left;
+	cursor: pointer;
 	
 }
+
+.litera:hover
+{
+	background-color: #333;
+	
+	
+}
+
+.ui-btn:hover
+
+{
+	background-color: #008;
+	
+}
+
+
