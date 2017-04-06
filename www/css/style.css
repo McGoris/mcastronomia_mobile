@@ -35,7 +35,6 @@
 #pole1
 {
 	width: 20%;
-	text-align: left;
 	float: left;
 	margin-top: 40px;
 	padding: 10px;
@@ -44,6 +43,7 @@
 
 #pole2
 {
+	margin-left: 20px;
 	width: 20%;
 	float: left;
 	float: left;
