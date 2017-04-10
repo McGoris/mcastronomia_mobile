@@ -2,7 +2,7 @@
 function InAppBrowser()
 {
 	
-window.open = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
 
 }
 
