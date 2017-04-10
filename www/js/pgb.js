@@ -1,8 +1,8 @@
 
-function nabloga()
+function InAppBrowser()
 {
 	
-var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+var ref = cordova.InAppBrowser.open('http://www.mcastronomia.blogspot.com', '_blank', 'location=yes');
 
 document.getElementById("blog").innerHTML = ref;
 
