@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 function exitApp()
 {
 
@@ -8,6 +9,9 @@ navigator.app.exitApp();
 
 
 var hasla = new Array(120);
+=======
+var hasla = new Array(130);
+>>>>>>> 7349a41213f90c4ea85b1ea861cbea5662e7562b
 
 hasla[0] = "William herschel";
 hasla[1] = "gromada galaktyk w pannie";
@@ -129,6 +133,17 @@ hasla[116] = "rektascensja";
 hasla[117] = "deklinacja";
 hasla[118] = "ekliptyka";
 hasla[119] = "mgławica dyfuzyjna";
+hasla[120] = "protuberancje na słońcu";
+hasla[121] = "plamy słoneczne";
+hasla[122] = "promieniowanie elektromagnetyczne";
+hasla[123] = "paradoks bliźniąt";
+hasla[124] = "pory roku";
+hasla[125] = "zwrotnik raka";
+hasla[126] = "radioastronomia";
+hasla[127] = "mikrokwazar";
+hasla[128] = "Mgławica Carina";
+hasla[129] = "oktant";
+
 
 
 
