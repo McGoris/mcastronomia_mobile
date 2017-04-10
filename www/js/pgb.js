@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 function exitApp()
 {
 
@@ -9,9 +8,9 @@ navigator.app.exitApp();
 
 
 var hasla = new Array(120);
-=======
+
 var hasla = new Array(130);
->>>>>>> 7349a41213f90c4ea85b1ea861cbea5662e7562b
+
 
 hasla[0] = "William herschel";
 hasla[1] = "gromada galaktyk w pannie";
