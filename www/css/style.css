@@ -14,9 +14,9 @@
 {
 	
 	float: left; 
-	width: 45%; 
+	width: 40%; 
 	text-align: center; 
-	min-height: 300px;
+	min-height: 125px;
 	
 	
 }
@@ -27,7 +27,7 @@
 	
 	width: 45%; 
 	text-align: center; 
-	min-height: 300px;
+	min-height: 125px;
 	float: left;
 	
 }
