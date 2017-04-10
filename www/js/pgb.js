@@ -1,4 +1,12 @@
 
+function exitApp()
+{
+
+navigator.app.exitApp();
+	
+}
+
+
 var hasla = new Array(120);
 
 hasla[0] = "William herschel";
@@ -302,5 +310,4 @@ function sprawdz(nr)
 	wypisz_haslo();
 
 }
-
 
