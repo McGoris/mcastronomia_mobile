@@ -1,4 +1,14 @@
 
+function nabloga()
+{
+	
+var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+
+document.getElementById("blog").innerHTML = ref;
+
+}
+
+
 function exitApp()
 {
 
@@ -7,7 +17,7 @@ navigator.app.exitApp();
 }
 
 
-var hasla = new Array(120);
+
 
 var hasla = new Array(130);
 
