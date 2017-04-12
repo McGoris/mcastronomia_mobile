@@ -4,16 +4,17 @@
 		id          = "myfirstapp"
         version     = "1.0.0" >
 
-    <name>McAstronomia Mobile</name>
+    <name> McAstronomia Mobile </name>
     
-    <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
-		Copyright McGoris
+    <author href="http://mcastronomia.blogspot.com" email="mcgoris@o2.pl">
+		Copyright McGoris (c)
 	</author>
 	<platform name="android" />
 	
 	
 	<icon src="www/img/ikona.png" platform="android" width="60" height="60" density="mdpi" />
 	
+	<gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/img/ikona.png" />
 	
 	
 	<plugin name="cordova-plugin-device" spec="~1.1.4" />
