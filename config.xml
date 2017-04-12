@@ -14,7 +14,7 @@
 	
 	<icon src="www/img/ikona.png" platform="android" width="60" height="60" density="mdpi" />
 	
-	<gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/img/ikona.png" />
+	<splash src="www/img/ikona.png" width="60" height="60"/>
 	
 	
 	<plugin name="cordova-plugin-device" spec="~1.1.4" />
