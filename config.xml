@@ -12,7 +12,7 @@
 	<platform name="android" />
 	
 	
-	<icon src="img/ikona.png" platform="android" width="60" height="60" density="mdpi" />
+	<icon src="www/img/ikona.png" platform="android" width="60" height="60" density="mdpi" />
 	
 	
 	
