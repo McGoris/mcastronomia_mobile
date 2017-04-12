@@ -13,6 +13,10 @@
 	
 	
 	<icon src="www/img/ikona.png" platform="android" width="60" height="60" density="mdpi" />
+	<icon src="www/img/ikona.png" density="ldpi" />
+    <icon src="www/img/ikona.png" density="mdpi" />
+    <icon src="www/img/ikona.png" density="hdpi" />
+    <icon src="www/img/ikona.png" density="xhdpi" />
 	
 	<splash src="www/img/ikona.png" width="60" height="60"/>
 	
