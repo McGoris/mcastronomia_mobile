@@ -5,7 +5,7 @@ function ZasadyGry()
 
 	info =  'Hi, I am your smartphone :-)';
 
-	document.getElementById("deviceDetails").innerHTML = info;
+	document.getElementById("zasadygry").innerHTML = info;
 	
 }
 
