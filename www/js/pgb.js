@@ -5,7 +5,7 @@ function ZasadyGry()
 
 	info =  'Hi, I am your smartphone :-)';
 
-	navigator.notification.alert(info);
+	document.getElementById("deviceDetails").innerHTML = info;
 	
 }
 
