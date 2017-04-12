@@ -9,7 +9,11 @@
     <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
 		Copyright McGoris
 	</author>
-	<platform name="android" />
+	<platform name="android">
+	
+	<icon src="img/ikona.png" width="60" height="60" />
+	
+	</platform>
 	
 	<plugin name="cordova-plugin-device" spec="~1.1.4" />
 	<plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
