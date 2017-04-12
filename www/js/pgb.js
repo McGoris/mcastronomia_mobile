@@ -1,7 +1,7 @@
 function OtworzStrone()
 {
 var ref = cordova.InAppBrowser.open('http://mcastronomia.blogspot.com', '_blank', 'location=yes');
-window.open = cordova.InAppBrowser.open();
+window.open = cordova.InAppBrowser.open;
 
 }
 
