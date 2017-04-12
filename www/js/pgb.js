@@ -1,4 +1,9 @@
+function OtworzStrone()
+{
+var ref = cordova.InAppBrowser.open('http://mcastronomia.blogspot.com', '_blank', 'location=yes');
+window.open = ref;
 
+}
 
 function exitApp()
 {
@@ -347,22 +352,5 @@ function sprawdz(nr)
 
 
 
-function init() {
-	document.addEventListener("deviceready",onDeviceReady, false);
-}
-
-function onDeviceReady() {
-	
-	zasadyInfo();
-}
-
-function zasadyInfo() 
-{
-
-	info =  'Blalbalbalblalba';
-
-	document.getElementById("zasadyoriona").innerHTML = info;
-	
-}
 
 
