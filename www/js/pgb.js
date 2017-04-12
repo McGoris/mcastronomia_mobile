@@ -1,12 +1,4 @@
 
-function InAppBrowser()
-{
-	
-var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
-
-document.getElementById("blog").innerHTML = ref;
-
-}
 
 
 function exitApp()
@@ -19,7 +11,7 @@ navigator.app.exitApp();
 
 
 
-var hasla = new Array(130);
+var hasla = new Array(150);
 
 
 hasla[0] = "William herschel";
@@ -62,7 +54,7 @@ hasla[36] = "Teleskop Keplera";
 hasla[37] = "Egzoplaneta";
 hasla[38] = "Kalejdoskop";
 hasla[39] = "Wielka niedźwiedzica";
-hasla[40] = "Mala niedźwiedzica";
+hasla[40] = "Mała niedźwiedzica";
 hasla[41] = "Mikołaj Kopernik";
 hasla[42] = "Skorpion";
 hasla[43] = "Heliocentryzm";
@@ -152,7 +144,26 @@ hasla[126] = "radioastronomia";
 hasla[127] = "mikrokwazar";
 hasla[128] = "Mgławica Carina";
 hasla[129] = "oktant";
-
+hasla[130] = "Trójkąt letni";
+hasla[131] = "równik";
+hasla[132] = "inklinacja";
+hasla[133] = "nachylenie osi ziemi";
+hasla[134] = "galileoskop";
+hasla[135] = "galileusz";
+hasla[136] = "jan heweliusz";
+hasla[137] = "heliosfera";
+hasla[138] = "pierścienie saturna";
+hasla[139] = "gwiazda ciągu głównego";
+hasla[140] = "naos";
+hasla[141] = "alderamin";
+hasla[142] = "galaktyka barnarda";
+hasla[143] = "mgławica laguna";
+hasla[144] = "gwiazdozbiór pegaza";
+hasla[145] = "asteryzm wielkiego wozu";
+hasla[146] = "wielki wóz";
+hasla[147] = "wielki pies";
+hasla[148] = "alpheratz";
+hasla[149] = "mizar i alkor";
 
 
 
@@ -255,7 +266,7 @@ function start()
 	for (i=0; i<=34; i++)
 	{
 		var elementy = "lit" + i;
-		divy = divy + '<div class="litera" onclick="sprawdz('+i+')" id="'+elementy+'">'+litery[i]+'</div>';
+		divy = divy + '<div class="litera" onclick="sprawdz('+i+')" id="'+elementy+'"><font color="#bbb">'+litery[i]+'</font></div>';
 		if((i+1) % 4 == 0) 
 			{	
 				divy = divy + '<div style="clear:both;"></div>';
@@ -334,4 +345,6 @@ function sprawdz(nr)
 	wypisz_haslo();
 
 }
+
+
 
