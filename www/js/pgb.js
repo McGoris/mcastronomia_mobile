@@ -1,11 +1,11 @@
 
 
-function ZasadyGry() 
+function zasadyInfo() 
 {
 
-	info =  'Hi, I am your smartphone :-)';
+	info =  'Blalbalbalblalba';
 
-	document.getElementById("zasadygry").innerHTML = info;
+	document.getElementById("zasadyoriona").innerHTML = info;
 	
 }
 
