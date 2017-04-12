@@ -1,5 +1,14 @@
 
 
+function ZasadyGry() 
+{
+
+	info =  'Hi, I am your smartphone :-)';
+
+	navigator.notification.alert(info);
+	
+}
+
 
 function exitApp()
 {
@@ -345,6 +354,7 @@ function sprawdz(nr)
 	wypisz_haslo();
 
 }
+
 
 
 
