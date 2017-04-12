@@ -1,15 +1,5 @@
 
 
-function zasadyInfo() 
-{
-
-	info =  'Blalbalbalblalba';
-
-	document.getElementById("zasadyoriona").innerHTML = info;
-	
-}
-
-
 function exitApp()
 {
 
@@ -356,5 +346,23 @@ function sprawdz(nr)
 }
 
 
+
+function init() {
+	document.addEventListener("deviceready",onDeviceReady, false);
+}
+
+function onDeviceReady() {
+	
+	zasadyInfo();
+}
+
+function zasadyInfo() 
+{
+
+	info =  'Blalbalbalblalba';
+
+	document.getElementById("zasadyoriona").innerHTML = info;
+	
+}
 
 
