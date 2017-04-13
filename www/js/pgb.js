@@ -267,15 +267,54 @@ function start()
 {
 	var divy ="";
 	
-	for (i=0; i<=34; i++)
+	for (i=0; i<=7; i++)
 	{
 		var elementy = "lit" + i;
-		divy = divy + '<div class="litera" onclick="sprawdz('+i+')" id="'+elementy+'"><font color="#bbb">'+litery[i]+'</font></div>';
+		divy = divy + '<div class="litera" style="background-color: #002;" onclick="sprawdz('+i+')" id="'+elementy+'"><font color="#bbb">'+litery[i]+'</font></div>';
 		if((i+1) % 4 == 0) 
 			{	
 				divy = divy + '<div style="clear:both;"></div>';
 			}
 	}
+	
+	for (i=8; i<=15; i++)
+	{
+		var elementy = "lit" + i;
+		divy = divy + '<div class="litera" style="background-color: #001331;" onclick="sprawdz('+i+')" id="'+elementy+'"><font color="#bbb">'+litery[i]+'</font></div>';
+		if((i+1) % 4 == 0) 
+			{	
+				divy = divy + '<div style="clear:both;"></div>';
+			}
+	}
+	
+	for (i=16; i<=23; i++)
+	{
+		var elementy = "lit" + i;
+		divy = divy + '<div class="litera" style="background-color: #124;" onclick="sprawdz('+i+')" id="'+elementy+'"><font color="#bbb">'+litery[i]+'</font></div>';
+		if((i+1) % 4 == 0) 
+			{	
+				divy = divy + '<div style="clear:both;"></div>';
+			}
+	}
+	for (i=24; i<=31; i++)
+	{
+		var elementy = "lit" + i;
+		divy = divy + '<div class="litera" style="background-color: #233;" onclick="sprawdz('+i+')" id="'+elementy+'"><font color="#bbb">'+litery[i]+'</font></div>';
+		if((i+1) % 4 == 0) 
+			{	
+				divy = divy + '<div style="clear:both;"></div>';
+			}
+	}
+	for (i=32; i<=34; i++)
+	{
+		var elementy = "lit" + i;
+		divy = divy + '<div class="litera" style="background-color: #343" onclick="sprawdz('+i+')" id="'+elementy+'"><font color="#bbb">'+litery[i]+'</font></div>';
+		if((i+1) % 4 == 0) 
+			{	
+				divy = divy + '<div style="clear:both;"></div>';
+			}
+	}
+	
 	
 	
 	document.getElementById("alfabet").innerHTML = divy;
@@ -309,7 +348,7 @@ function sprawdz(nr)
 	if(wynik == true)
 	{
 		var element = "lit" + nr;
-		document.getElementById(element).style.background = "#005500";
+		document.getElementById(element).style.background = "#008800";
 		document.getElementById(element).style.color = "#fff";
 		document.getElementById(element).style.cursor = "default";
 		document.getElementById(element).setAttribute("onclick",";");
@@ -325,7 +364,7 @@ function sprawdz(nr)
 	else
 	{
 		var element = "lit" + nr;
-		document.getElementById(element).style.background = "#660000";
+		document.getElementById(element).style.background = "#880000";
 		document.getElementById(element).style.color = "#fff";
 		document.getElementById(element).style.cursor = "default";
 		document.getElementById(element).setAttribute("onclick",";");
