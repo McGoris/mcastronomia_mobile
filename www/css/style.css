@@ -2,13 +2,14 @@
 {
 	border-style: solid;
 	border-radius: 10px;
-	min-height: 45px;
+	min-height: 40px;
 	font-size: 12px;
 	font-family: 'Inconsolata', monospace;
 	text-align: center;
 	background-color: #007;
-	margin-top: 10px;
+	margin-top: 15px;
 	margin-bottom: 15px;
+	padding-top: 20px;
 }
 
 
@@ -18,7 +19,7 @@
 	min-height: 120px;
 	font-size: 12px;
 	font-family: 'Inconsolata', monospace;
-	background-color: #005;
+	
 		
 }
 
@@ -117,6 +118,13 @@
 
 {
 	background-color: #008;
+	
+}
+
+.odpowiedz:hover
+{
+	background-color: #333;
+	
 	
 }
 

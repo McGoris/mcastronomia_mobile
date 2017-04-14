@@ -14,9 +14,6 @@ function exitApp()
 	
 }
 
-
-
-
 var hasla = new Array(150);
 
 
@@ -172,9 +169,6 @@ hasla[148] = "alpheratz";
 hasla[149] = "mizar i alkor";
 
 
-
-
-
 function losuj()
 {
 	var liczba = Math.round(Math.random()*hasla.length);
@@ -183,6 +177,9 @@ function losuj()
 }
 
 losuj();
+
+
+
 
 var haslo = losowe_haslo;
 
