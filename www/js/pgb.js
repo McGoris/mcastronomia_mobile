@@ -274,7 +274,7 @@ function start()
 	for (i=0; i<=7; i++)
 	{
 		var elementy = "lit" + i;
-		divy = divy + '<div class="litera" style="background-color: #101840;" onclick="sprawdz('+i+')" id="'+elementy+'"><font color="#bbb">'+litery[i]+'</font></div>';
+		divy = divy + '<div class="litera" style="background-color: #0b1540;" onclick="sprawdz('+i+')" id="'+elementy+'"><font color="#bbb">'+litery[i]+'</font></div>';
 		if((i+1) % 4 == 0) 
 			{	
 				divy = divy + '<div style="clear:both;"></div>';
@@ -291,7 +291,7 @@ function start()
 			}
 	}
 	
-	for (i=16; i<=23; i++)
+	for (i=16; i<=27; i++)
 	{
 		var elementy = "lit" + i;
 		divy = divy + '<div class="litera" style="background-color: #223533;" onclick="sprawdz('+i+')" id="'+elementy+'"><font color="#bbb">'+litery[i]+'</font></div>';
@@ -300,7 +300,7 @@ function start()
 				divy = divy + '<div style="clear:both;"></div>';
 			}
 	}
-	for (i=24; i<=34; i++)
+	for (i=28; i<=34; i++)
 	{
 		var elementy = "lit" + i;
 		divy = divy + '<div class="litera" style="background-color: #344835;" onclick="sprawdz('+i+')" id="'+elementy+'"><font color="#bbb">'+litery[i]+'</font></div>';
