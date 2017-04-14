@@ -3,7 +3,7 @@
 	border-style: solid;
 	border-radius: 10px;
 	min-height: 45px;
-	font-size: 24px;
+	font-size: 12px;
 	font-family: 'Inconsolata', monospace;
 	text-align: center;
 	background-color: #007;
@@ -16,7 +16,7 @@
 {
 	
 	min-height: 240px;
-	font-size: 10px;
+	font-size: 12px;
 	font-family: 'Inconsolata', monospace;
 	background-color: #005;
 		
@@ -28,7 +28,7 @@
 	margin-top: 10px; 
 	margin-bottom: 10px; 
 	text-align: center; 
-	font-size: 24px; 
+	font-size: 20px; 
 	min-height: 40px;
 	font-family: 'Inconsolata', monospace;
 
