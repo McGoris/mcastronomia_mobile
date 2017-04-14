@@ -16,7 +16,7 @@
 {
 	
 	min-height: 240px;
-	font-size: 24px;
+	font-size: 10px;
 	font-family: 'Inconsolata', monospace;
 	background-color: #005;
 		
@@ -80,7 +80,7 @@
 
 {
 	cursor: pointer;
-	width: 40%;
+	width: 45%;
 	height: 25px;
 	border-radius: 4px;
 	float: left;
