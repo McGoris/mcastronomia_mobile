@@ -1,3 +1,27 @@
+#pytanie
+{
+	border-style: solid;
+	border-radius: 10px;
+	min-height: 45px;
+	font-size: 24px;
+	font-family: 'Inconsolata', monospace;
+	text-align: center;
+	background-color: #007;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+
+#odpowiedzi
+{
+	
+	min-height: 240px;
+	font-size: 24px;
+	font-family: 'Inconsolata', monospace;
+	background-color: #005;
+		
+}
+
 #plansza 
 {
 	width: 100%; 
@@ -52,6 +76,19 @@
 	
 }
 
+.odpowiedz
+
+{
+	cursor: pointer;
+	width: 40%;
+	height: 25px;
+	border-radius: 4px;
+	float: left;
+	margin: 3px;
+	padding: 3px;
+	border: 2px solid gray;
+	border-radius: 8px;
+}
 
 
 .litera

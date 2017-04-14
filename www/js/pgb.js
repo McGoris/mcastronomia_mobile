@@ -1,3 +1,5 @@
+
+
 function OtworzStrone()
 {
 	var ref = cordova.InAppBrowser.open('http://mcastronomia.blogspot.com', '_blank', 'location=yes');
@@ -8,7 +10,7 @@ function OtworzStrone()
 function exitApp()
 {
 
-navigator.app.exitApp();
+	navigator.app.exitApp();
 	
 }
 
@@ -220,7 +222,7 @@ function wypisz_haslo()
 	
 }
 
-window.onload = start;
+
 
 
 var litery = new Array(35);
@@ -261,6 +263,8 @@ litery[32] = "Z";
 litery[33] = "Ż";
 litery[34] = "Ź";
 
+
+window.onload = start;
 
 function start()
 
@@ -388,8 +392,5 @@ function sprawdz(nr)
 	wypisz_haslo();
 
 }
-
-
-
 
 
