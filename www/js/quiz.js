@@ -1,44 +1,47 @@
-var question = "<font color='#bbb'> Jaka jest najbliższa nam galaktyka? </font>";
+var currentQuestion = 0;
+var score = 0;
+var totQuestions = questions.length;
 
-function WypiszPytanie()
-{
-	document.getElementById("pytanie").innerHTML = question;
+var container = document.getElementById('quizContainer');
+var questionEl = document.getElementById('question');
+var opt1 = document.getElementById('opt1');
+var opt2 = document.getElementById('opt2');
+var opt3 = document.getElementById('opt3');
+var opt4 = document.getElementById('opt4');
+var nextButton = document.getElementById('nextButton');
+var resultCont = document.getElementById('result');
 
+function loadQuestion (questionIndex) {
+	var q = questions[questionIndex];
+	questionEl.textContent = (questionIndex + 1) + '. ' + q.question;
+	opt1.textContent = q.option1;
+	opt2.textContent = q.option2;
+	opt3.textContent = q.option3;
+	opt4.textContent = q.option4;
+};
 
-	WypiszOdpowiedzi();
-	
-	
+function loadNextQuestion () {
+	var selectedOption = document.querySelector('input[type=radio]:checked');
+	if(!selectedOption){
+		alert('Proszę zaznaczyć opcję!');
 		
-}
-
-var odpowiedzi = new Array(4);
-
-odpowiedzi[0] = "A: NGC 281";
-odpowiedzi[1] = "B: Galaktyka Barnarda";
-odpowiedzi[2] = "C: Galaktyka Andromedy";
-odpowiedzi[3] = "D: NGC 4565";
-
-
-function WypiszOdpowiedzi()
-{
-	
-	
-	
-	var odp ="";
-	
-	for (i=0; i<=3; i++)
-	{
-		var elementsy = "odp" + i;
-		odp = odp + '<div class="odpowiedz" style="background-color: #002;" id="'+elementsy+'"><font color="#bbb">'+odpowiedzi[i]+'</font></div>';
-		if((i+1) % 2 == 0) 
-			{	
-				odp = odp + '<div style="clear:both;"></div>';
-			}
+	}
+	var answer = selectedOption.value;
+	if(questions[currentQuestion].answer == answer){
+		score += 10;
+	}
+	selectedOption.checked = false;
+	currentQuestion++;
+	if(currentQuestion == totQuestions - 1){
+		nextButton.textContent = 'Koniec';
 	}
 	
-	document.getElementById("odpowiedzi").innerHTML = odp;
-	
+	if(currentQuestion == totQuestions){
+		container.style.display = 'none';
+		resultCont.style.display = '';
+		resultCont.textContent = 'Wynik: ' + score;
+	}
+	loadQuestion(currentQuestion);
 }
 
-
-
+loadQuestion(currentQuestion);

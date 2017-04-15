@@ -11,7 +11,7 @@
 		<script src="js/jquery.mobile-1.4.5.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 	</head>
-	<body onload="WypiszPytanie(); start();">
+	<body onload=" start(); ">
 		
 		<!-- Strona glowna  -->
 		<div data-role="page" id="pageone" align="center">
@@ -51,44 +51,55 @@
 		  </div> 
 		</div> 
 		
-		<!-- Quiz -->
+<!-- Quiz -->
 		<div data-role="page" id="quiz">
 		
 			<div data-role="header" style="background-color: #003;">
-				<h1> Quiz </h1>
-				
+				<h1> <font color='#bbb'>Quiz</font></h1>	
 			</div>
+			
 			<div data-role="main" class="ui-content" style="background-color: #001;">
 				
-				<div id="pytanie">
+					<div id="quizContainer" class="container">
+					<font color='#bbb'><div id="question" class="question"></div></font>
 					
-				
-				</div>
+								<label class="option">
+									<input type="radio" name="option" value="1" /> <span id="opt1"></span></label>
+								<label class="option">
+									<input type="radio" name="option" value="2" /> <span id="opt2"></span></label>
+								<label class="option">
+									<input type="radio" name="option" value="3" /> <span id="opt3"></span></label>
+								<label class="option">
+									<input type="radio" name="option" value="4" /> <span id="opt4"></span></label>
+								<button id="nastepne" class="next-btn" onclick="wczytajNastepnePytanie();">Następne pytanie</button>
+								
+					</div>
 					
-				<div id="odpowiedzi">
+					<div id="result" class="container result" style="display:none;">
+					</div>
 					
 					
-					
-					
-				</div>
-				
-				<div style="clear:both;"></div>
-				
+		<script src="question.js"></script>
+		<script src="quiz.js"></script>
+			
 				<div align="center">
+				
 				<a href="#zasadyquizu" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #002;"><font color="#bbb"> Zasady Gry </font></a>
 				<a href="#pageone" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #002;"><font color="#bbb"> Powrót do strony głównej </font></a>
+				<a href="javascript:location.reload()" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #344836;"><font color="#aaa"> Odśwież </font> </a>
 				</div>
-				
+				<div id="result" class="containerResult" style="display:none;"></div>
 			</div>
 			<div data-role="footer" data-position="fixed" style="background-color: #003; ">
 			<h1><font color="#eee">(c) McGoris Polska </font></h1>
 		  </div> 
 			
 		</div>
+<!--	Koniez quiza -->
 
 		<!-- Kalkulator -->
 		
-		<div data-role="page" id="kalkulator" style="background-color: #001;">
+		<div data-role="page" id="kalkulator" style="background-color: #002;">
 		
 			<div data-role="header" data-position="fixed" style="background-color: #003;">
 				<h1> Kalkulator </h1>
@@ -147,36 +158,36 @@
 		<div data-role="page" id="info" style="background-color: #001;">
 		
 			<div data-role="header" style="background-color: #003;">
-				<h1><font color="#bbb"> O mnie </font></h1>
+				<h1> O mnie </h1>
 				
 			</div>
 			
 			<div data-role="main" class="ui-content" align="center">
 				<font color="#bbb">
-				<table border="2" style="width: 50%; background-color: #002;">
+				<table border="0" style="width: 50%; ">
 					<tr><td> Imię: </td><td style="text-align: right;"> Marcin </td></tr>
 					<tr><td> Nazwisko: </td><td style="text-align: right;"> Goryl </td></tr>
 				</table>
 					<br>
 					<br>
-				<table border="2" style="width: 50%; background-color: #133240;">	
+				<table border="0" style="width: 50%; ">	
 					<tr><td> </td><td style="text-align: right;"> Astronomia </td></tr>
 					<tr><td> Hobby: </td><td style="text-align: right;"> Fotografia </td></tr>
-					<tr><td> </td><td style="text-align: right;"> Informatyka </td></tr>
+					<tr><td></td><td style="text-align: right;"> Informatyka </td></tr>
 				</table>
 					<br>
 					<br>
-				<table border="2" style="width: 50%; background-color: #344835;">		
+				<table border="0" style="width: 50%; ">		
 					<tr><td> Wiek: </td><td style="text-align: right;"> 23 </td></tr>
 				</table>	
 				</font>
 				<br>
 				<br>
 				
-				<a href="#pageone" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #575722;"><font color="#bbb"> Powrót do strony głównej </font></a>
+				<a href="#pageone" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #003;"><font color="#bbb"> Powrót do strony głównej </font></a>
 			</div>
 			
-			<div data-role="footer" data-position="fixed" style="background-color: #772;">
+			<div data-role="footer" data-position="fixed" style="background-color: #003;">
 				
 				<h1><font color="#eee">(c) McGoris Polska </font></h1>
 			
@@ -256,7 +267,7 @@
 				Jeżeli uda ci się odgadnąć słowo/zdanie, wygrywasz.
 				<br>
 				Jeżeli nie uda ci się odgadnąć i narysuje się cała konstelacja Oriona, przegrywasz.
-				<br><br><br><br>
+
 				</font>	
 					
 				
