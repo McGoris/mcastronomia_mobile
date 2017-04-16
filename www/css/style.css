@@ -1,3 +1,14 @@
+.option
+{
+	min-height: 25px;
+	color: blue;
+	width: 70%;
+	border: 2px solid gray;
+	border-radius: 8px;
+}
+
+
+
 #pytanie
 {
 	border-style: solid;
@@ -127,5 +138,6 @@
 	
 	
 }
+
 
 

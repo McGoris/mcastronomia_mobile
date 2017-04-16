@@ -68,4 +68,88 @@ var questions = [{
 	"option3": "Na biegunie południowym",
 	"option4": "Na zwrotnikach Raka i Koziorożca",
 	"answer": "1"
+}, {
+	"question": "Jaki typ widmowy mają gwiazdy o najwyższej temperaturze powierzchni?",
+	"option1": "A",
+	"option2": "B",
+	"option3": "M",
+	"option4": "O",
+	"answer": "4"
+}, {
+	"question": "Największa planeta w Układzie Słonecznym to: ?",
+	"option1": "Saturn",
+	"option2": "Jowisz",
+	"option3": "Ziemia",
+	"option4": "Neptun",
+	"answer": "2"
+}, {
+	"question": "Kto stworzył Ogólną Teorię Względności?",
+	"option1": "Isaac Newton",
+	"option2": "Niels Bohr",
+	"option3": "Albert Einstein",
+	"option4": "Sokrates",
+	"answer": "3"
+}, {
+	"question": "Model ze Słońcem w centrum i okrążającymi je planetami to: ?",
+	"option1": "Heliocentryzm",
+	"option2": "Egocentryzm",
+	"option3": "Geocentryzm",
+	"option4": "Epicentryzm",
+	"answer": "1"
+}, {
+	"question": "Najbliższa nam gwiazda(pomijając Słońce) to: ",
+	"option1": "Gliese 581",
+	"option2": "Syriusz",
+	"option3": "Gwiazda Barnarda",
+	"option4": "Alfa Centauri",
+	"answer": "4"
+}, {
+	"question": "Najjaśnieszą gwiazdą w konstelacji Skorpiona jest: ?",
+	"option1": "Antares",
+	"option2": "Aldebaran",
+	"option3": "Alderamin",
+	"option4": "Alpheratz",
+	"answer": "1"
+}, {
+	"question": "Jak się nazywa nachylenie orbit planet względem płaszczyzny(ekliptyki)",
+	"option1": "Deklinacja",
+	"option2": "Ekstyncja",
+	"option3": "Inklinacja",
+	"option4": "Rektascensja",
+	"answer": "3"
+}, {
+	"question": "Jak się nazywa linia dzieląca część oświetloną i nieoświetloną Księżyca",
+	"option1": "Deadline",
+	"option2": "Penumbra",
+	"option3": "Eksterminator",
+	"option4": "Terminator",
+	"answer": "4"
+}, { 
+	"question": "Do Zaćmienia Księżyca może dojść tylko wtedy gdy Księżyc jest w: ?",
+	"option1": "Pierwszej Kwadrze",
+	"option2": "Pełni",
+	"option3": "Nowiu",
+	"option4": "Nie może dojść do zaćmienia Księżyca",
+	"answer": "2"
+}, {
+	"question": "Gwiazda Deneb (najjaśniejsza w Łabędziu) jest oddalona o ok.: ",
+	"option1": "1500 lat świetlnych",
+	"option2": "8,5 roku świetlnego",
+	"option3": "157 lat świetlnych",
+	"option4": "423 lata świetlne",
+	"answer": "1"
+}, {
+	"question": "Najjaśnieszą gwiazdą w konstelacji Byka jest: ?",
+	"option1": "Antares",
+	"option2": "Aldebaran",
+	"option3": "Alderamin",
+	"option4": "Alpheratz",
+	"answer": "2"
+}, {
+	"question": "Najjaśnieszą gwiazdą w konstelacji Cefeusza jest: ?",
+	"option1": "Antares",
+	"option2": "Aldebaran",
+	"option3": "Alderamin",
+	"option4": "Alpheratz",
+	"answer": "3"		
 }];
