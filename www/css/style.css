@@ -1,12 +1,23 @@
 .option
 {
-	min-height: 25px;
-	color: blue;
-	width: 70%;
+
+	background-color: #003;
 	border: 2px solid gray;
 	border-radius: 8px;
+	
+	
 }
 
+#question
+{
+	min-height: 50px;
+	margin-bottom: 5px;
+	text-align: center;
+	border: 2px solid gray;
+	border-radius: 8px;
+	padding: 5px;
+	
+}
 
 
 #pytanie
