@@ -4,6 +4,9 @@
 	background-color: #003;
 	border: 2px solid gray;
 	border-radius: 8px;
+	min-height: 40px;
+	margin-top: 5px;
+	padding: 2px;
 	
 	
 }
