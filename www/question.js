@@ -152,6 +152,12 @@ var questions = [{
 	"option3": "Alderamin",
 	"option4": "Alpheratz",
 	"answer": "3"		
+	
+	
+	
+
+
+
 }, {
 	"question": "Jakie są najbardziej znane galaktyki karłowate, które okrążają Drogę Mleczną?",
 	"option1": "Obłoki Magellana",
@@ -277,27 +283,6 @@ var questions = [{
 	"option2": "Dubhe",
 	"option3": "Mirfak",
 	"option4": "Zeta Puppis",
-	"answer": "3"
-}, {
-	"question": "Która z planet Układu Słonecznego ma tzw. rotację wsteczną (obraca się wokół osi w przeciwnym kierunku)?.: ",
-	"option1": "Uran",
-	"option2": "Wenus",
-	"option3": "Merkury",
-	"option4": "Mars",
-	"answer": "2"
-}, {
-	"question": "Najjaśnieszą gwiazdą w gwiazdozbiorze Lutni jest: ?",
-	"option1": "Albireo",
-	"option2": "Sadr",
-	"option3": "Wega",
-	"option4": "Deneb",
-	"answer": "3"
-}, {
-	"question": "W którym roku została wystrzelona sonda Cassini ?",
-	"option1": "1994",
-	"option2": "1989",
-	"option3": "1997",
-	"option4": "1999",
-	"answer": "3"	
+	"answer": "3"		
 		
 }];
