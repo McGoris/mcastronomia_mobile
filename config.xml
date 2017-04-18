@@ -4,6 +4,7 @@
 		id          = "myfirstapp"
         version     = "1.0.0" >
 
+
     <name> McAstronomia Mobile </name>
     
     <author href="http://mcastronomia.blogspot.com" email="mcgoris@o2.pl">
