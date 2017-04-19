@@ -63,17 +63,17 @@ function loadNextQuestion () {
 	
 	if(questions[currentQuestion].answer == answer){		
 		document.getElementById("id"+answer).style.background = "green";
-		
-		
-			alert("dobrze");
-				sleep(1500);
+			sleep(1500);
+			
+			setTimeout(function(){ location.reload(); }, 1500);
+				
 		score += 10;
 	} else {				
 
 		document.getElementById("id"+answer).style.background = "red";
 		
-			alert("zle");
-				sleep(1500);
+			sleep(1500);
+		    setTimeout(function(){ location.reload(); }, 1500);
 	}
 		
 	document.getElementById("id"+answer).style.background = '#003';
