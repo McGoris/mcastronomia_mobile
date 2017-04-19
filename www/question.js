@@ -152,12 +152,6 @@ var questions = [{
 	"option3": "Alderamin",
 	"option4": "Alpheratz",
 	"answer": "3"		
-	
-	
-	
-
-
-
 }, {
 	"question": "Jakie są najbardziej znane galaktyki karłowate, które okrążają Drogę Mleczną?",
 	"option1": "Obłoki Magellana",
@@ -284,5 +278,131 @@ var questions = [{
 	"option3": "Mirfak",
 	"option4": "Zeta Puppis",
 	"answer": "3"		
-		
+
+}, {
+	"question": "Największym Księżycem Saturna jest: ",
+	"option1": "Dione",
+	"option2": "Tytan",
+	"option3": "Enceladus",
+	"option4": "Japetus",
+	"answer": "2"
+}, {
+	"question": "Wielka Mgławica Oriona oddalona jest o:",
+	"option1": "2458 lat świetlnych",
+	"option2": "5000 lat świetlnych",
+	"option3": "1344 lat świetlnych",
+	"option4": "446 lat świetlnych",
+	"answer": "3"
+}, {
+	"question": "Układ Słoneczny względem płaszczyzny Drogi Mlecznej jest ustawiony pod kątem ok.: ",
+	"option1": "30°",
+	"option2": "15°",
+	"option3": "60°",
+	"option4": "90°",
+	"answer": "3"
+}, {
+	"question": "Najmniejszym gwiazdozbiorem pod względem powierzchni jest: ",
+	"option1": "Mały Pies",
+	"option2": "Psy Gończe",
+	"option3": "Delfin",
+	"option4": "Krzyż Południa",
+	"answer": "4"
+}, {
+	"question": "Wielka Czerwona Plama znajduje się na: ",
+	"option1": "Saturnie",
+	"option2": "Jowiszu",
+	"option3": "Ziemi",
+	"option4": "Neptunie",
+	"answer": "2"
+}, {
+	"question": "W której erze jest obecnie Wszechświat?",
+	"option1": "erze promieniowania",
+	"option2": "erze gwiazdowej",
+	"option3": "erze leptonowej",
+	"option4": "erze kwarkowej",
+	"answer": "2"
+}, {
+	"question": "Syriusz B, drugi składnik układu podwójnego Syriusza jest: ",
+	"option1": "białym karłem",
+	"option2": "białą gwiazdą ciągu głównego",
+	"option3": "brązowym karłem",
+	"option4": "czerwonym karłem",
+	"answer": "1"
+}, {
+	"question": "Które planety oprócz Saturna posiadają pierścienie?",
+	"option1": "tylko Uran",
+	"option2": "Uran i Neptun",
+	"option3": "Jowisz, Uran i Neptun",
+	"option4": "Żadna nie ma",
+	"answer": "3"
+}, {
+	"question": "Jak się nazywa największy Księżyc Plutona?",
+	"option1": "Nix",
+	"option2": "Styx",
+	"option3": "Charon",
+	"option4": "Hydra",
+	"answer": "3"
+}, {
+	"question": "William Herschel zanim zainteresował się astronomią był: ",
+	"option1": "malarzem",
+	"option2": "muzykiem",
+	"option3": "rzemieślnikiem",
+	"option4": "poetą",
+	"answer": "2"
+}, {
+	"question": "Która z tych gwiazd leży najbliżej? ",
+	"option1": "Altair",
+	"option2": "Wega",
+	"option3": "Regulus",
+	"option4": "Procjon",
+	"answer": "4"
+}, {
+	"question": "Alnitak, Alnilam i Mintaka - to gwiazdy tworzące asteryzm: ",
+	"option1": "Trójkąta letniego",
+	"option2": "Pasa Oriona",
+	"option3": "Trójkąta zimowego",
+	"option4": "Trójkąta wiosennego",
+	"answer": "2"
+}, {
+	"question": "Jaki jest pod względem powierzchni największy gwiazdozbiór zodiakalny?",
+	"option1": "Panny",
+	"option2": "Byka",
+	"option3": "Lwa",
+	"option4": "Ryb",
+	"answer": "1"
+}, {
+	"question": "Gwiazda olbrzym ma oznaczenie w typie widmowym: ",
+	"option1": "I",
+	"option2": "II",
+	"option3": "III",
+	"option4": "V",
+	"answer": "3"
+}, { 
+	"question": "Szóstą planetą od Słońca jest: ?",
+	"option1": "Uran",
+	"option2": "Ziemia",
+	"option3": "Saturn",
+	"option4": "Mars",
+	"answer": "3"	
+}, {
+	"question": "Promieniowanie elektromagnetyczne o długości fali od 380 - 700 nm nazywamy: ",
+	"option1": "podczerwienią",
+	"option2": "światłem widzialnym",
+	"option3": "promieniowaniem ultrafioletowym",
+	"option4": "promieniowaniem rentgenowskim",
+	"answer": "2"
+}, {
+	"question": "Najjaśnieszą gwiazdą w gwiazdozbiorze Panny jest: ?",
+	"option1": "Porrima",
+	"option2": "Vindemiatrix",
+	"option3": "Regulus",
+	"option4": "Spica",
+	"answer": "4"
+}, {
+	"question": "Najjaśnieszą gwiazdą w konstelacji Lwa jest: ?",
+	"option1": "Porrima",
+	"option2": "Dubhe",
+	"option3": "Regulus",
+	"option4": "Beta Leonis",
+	"answer": "3"				
 }];
