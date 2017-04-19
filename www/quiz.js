@@ -1,4 +1,4 @@
-var score = 0;
+
 var totQuestions = questions.length;
 var currentQuestion = Math.floor(Math.random()*totQuestions);
 var values = [];
@@ -51,7 +51,7 @@ function loadQuestion (questionIndex) {
 	opt4.textContent = q.option4;
 };
 
-function sprawdz() {
+function sprawdzQuiz() {
 	
 	var selectedOption = document.querySelector('input[type=radio]:checked');
 	var answer = selectedOption.value;
