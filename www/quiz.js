@@ -51,53 +51,67 @@ function loadQuestion (questionIndex) {
 	opt4.textContent = q.option4;
 };
 
-function loadNextQuestion () {
-		
+function sprawdz() {
+	
 	var selectedOption = document.querySelector('input[type=radio]:checked');
-	if(!selectedOption){
-		alert('Proszę zaznaczyć opcję!');		
+	var answer = selectedOption.value;
+	if(questions[currentQuestion].answer  == answer)
+	{		
+		
+		document.getElementById("id"+answer).style.background = "#007700";		
+		
+	} 
+	
+	else 
+	
+	{				
+		
+		document.getElementById("id"+answer).style.background = "#770000";
+	   
 	}
-	else {
+	setTimeout(function(){ location.reload(); }, 1000);
+	
+}
+
+
+function loadNextQuestion() {
+		
+	
+	var selectedOption = document.querySelector('input[type=radio]:checked');
+	
+	
 	
 	var answer = selectedOption.value;
 	
-	if(questions[currentQuestion].answer == answer){		
-		document.getElementById("id"+answer).style.background = "#007700";
-			sleep(1500);
-			
-			
-				
-		score += 10;
-	} else {				
-
-		document.getElementById("id"+answer).style.background = "red";
-		
-			sleep(1500);
-		    
-	}
-		
-	document.getElementById("id"+answer).style.background = '#003';
-	selectedOption.checked = false;
-	currentQuestion = Math.floor(Math.random()*totQuestions);	
 	
+			
+	if(questions[currentQuestion].answer  == answer)
+	{		
+		
+		document.getElementById("id"+answer).style.background = "#007700";		
+		
+	} 
+	
+	else 
+	
+	{				
+		
+		document.getElementById("id"+answer).style.background = "#770000";
+	   
+	}
 	//while (true){	
 	//	if (checkIfOccur(currentQuestion, values) == false) {
-	///		break;		
+	//		break;		
 //		}	else {
-	//			currentQuestion =Math.floor(Math.random()*totQuestions);		
+	//			currentQuestion = Math.floor(Math.random()*totQuestions);		
 //	}	
 //	}
-	}
+
 	
-	if(currentQuestion == totQuestions - 1){
-		nextButton.textContent = 'Koniec';
-	}
-	
-	if(currentQuestion == totQuestions){
-		container.style.display = 'none';
-		resultCont.style.display = '';
-		resultCont.textContent = 'Wynik: ' + score;
-	}
+	currentQuestion = Math.floor(Math.random()*totQuestions);
+	selectedOption.checked = false;	
+	setTimeout(function(){ location.reload(); }, 1000);
+
 	loadQuestion(currentQuestion);
 }
 
