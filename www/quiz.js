@@ -57,15 +57,15 @@ function loadNextQuestion () {
 	if(!selectedOption){
 		alert('Proszę zaznaczyć opcję!');		
 	}
-	
+	else {
 	
 	var answer = selectedOption.value;
 	
 	if(questions[currentQuestion].answer == answer){		
-		document.getElementById("id"+answer).style.background = "green";
+		document.getElementById("id"+answer).style.background = "#007700";
 			sleep(1500);
 			
-			setTimeout(function(){ location.reload(); }, 1500);
+			
 				
 		score += 10;
 	} else {				
@@ -73,7 +73,7 @@ function loadNextQuestion () {
 		document.getElementById("id"+answer).style.background = "red";
 		
 			sleep(1500);
-		    setTimeout(function(){ location.reload(); }, 1500);
+		    
 	}
 		
 	document.getElementById("id"+answer).style.background = '#003';
@@ -87,7 +87,7 @@ function loadNextQuestion () {
 	//			currentQuestion =Math.floor(Math.random()*totQuestions);		
 //	}	
 //	}
-	
+	}
 	
 	if(currentQuestion == totQuestions - 1){
 		nextButton.textContent = 'Koniec';
