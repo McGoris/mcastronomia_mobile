@@ -58,7 +58,7 @@ function sprawdzQuiz() {
 	if(questions[currentQuestion].answer  == answer)
 	{		
 		
-		document.getElementById("id"+answer).style.background = "#007700";		
+		document.getElementById("id"+answer).style.background = "#008800";		
 		
 	} 
 	
@@ -66,7 +66,7 @@ function sprawdzQuiz() {
 	
 	{				
 		
-		document.getElementById("id"+answer).style.background = "#770000";
+		document.getElementById("id"+answer).style.background = "#880000";
 	   
 	}
 	setTimeout(function(){ location.reload(); }, 1000);
