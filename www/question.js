@@ -469,11 +469,101 @@ var questions = [{
 	"option4": "D: Andromedy",
 	"answer": "4"
 }, {
-	"question": "Najjaśnieszwiaą gzdą w konstelacji Orła jest: ?",
-	"option1": "A. Altair",
-	"option2": "B: Dubhe",
-	"option3": "C: Wega",
-	"option4": "D: Deneb",
-	"answer": "1"			
-	
+	"question": "Kto odkrył, że Wszechświat się rozszerza? ",
+	"option1": "A. Tycho Brahe",
+	"option2": "B: Edwin Hubble",
+	"option3": "C: Johannes Kepler",
+	"option4": "D: Isaac Newton",
+	"answer": "2"	
+}, {
+	"question": "Jak się nazywał człowiek, który zapoczątkował radioastronomię odbierając przypadkowo sygnał radiowy Drogi Mlecznej? ",
+	"option1": "A: Jan Hendrik Oort",
+	"option2": "B: Edwin Hubble",
+	"option3": "C: Carl Jansky",
+	"option4": "D: Ernst Öpik",
+	"answer": "3"
+}, {
+	"question": "Gwiazdy, w których zachodzi fuzja wodoru w hel nazywamy: ",
+	"option1": "A: gwiazdami Wolfa-Rayeta",
+	"option2": "B: gwiazdami neutronowymi",
+	"option3": "C: nadolbrzymami",
+	"option4": "D: gwiazdami ciągu głównego",
+	"answer": "4"
+}, {
+	"question": "Kto odkrył Plutona ?",
+	"option1": "A: Clyde Tombaugh",
+	"option2": "B: Carl Jansky",
+	"option3": "C: Percival Lowell",
+	"option4": "D: James Christy",
+	"answer": "1"		
+}, {
+	"question": "Wzór chemiczny NH4 ma: ",
+	"option1": "A. metan",
+	"option2": "B: amoniak",
+	"option3": "C: alkohol etylowy",
+	"option4": "D: kwas azotowy",
+	"answer": "2"
+}, { 
+	"question": "Najbardziej znaną gwiazdą w konstelacji Oriona, która jest kandydatką na supernową jest: ",
+	"option1": "A. WR 104",
+	"option2": "B: Betelgeza",
+	"option3": "C: Rigel",
+	"option4": "D: VV Cephei",
+	"answer": "2"	
+}, {
+	"question": "Ile obiektów liczy katalog Messiera? ",
+	"option1": "A. 110",
+	"option2": "B: 98",
+	"option3": "C: 112",
+	"option4": "D: 106",
+	"answer": "1"
+}, {
+	"question": "Kto odkrył, że orbity planet są eliptyczne? ",
+	"option1": "A. Tycho Brahe",
+	"option2": "B: Galileusz",
+	"option3": "C: Jan Heweliusz",
+	"option4": "D: Johannes Kepler",
+	"answer": "4"
+}, {
+	"question": "O ile stopni Pluton jest nachylony względem ekliptyki? ",
+	"option1": "A. 17,16°",
+	"option2": "B: 34,42°",
+	"option3": "C: 24,64°",
+	"option4": "D: 44,1°",
+	"answer": "1"
+}, {
+	"question": "Jeden parsek (1 Pc) to w przybliżeniu: ",
+	"option1": "A. 150 000 000 km",
+	"option2": "B: 13 lat świetlnych",
+	"option3": "C: 3,26 roku świetlnego",
+	"option4": "D: 50 lat świetlnych",
+	"answer": "3"
+}, {
+	"question": "Gwiazdy o typie widmowym B to gwiazdy o temperaturze powierzchnii ok.: ",
+	"option1": "A. 10000 K - 30000 K",
+	"option2": "B: 7500 K - 30000 K",
+	"option3": "C: 3500 K - 5000 K",
+	"option4": "D: > 30000 K",
+	"answer": "1"
+}, {
+	"question": "Gwiazda Proxima Centauri - najbliższa nas gwiazda to jaki typ gwiazdy? ",
+	"option1": "A. czerwony karzeł",
+	"option2": "B: pomarańczowy karzeł",
+	"option3": "C: żółty karzeł",
+	"option4": "D: biały karzeł",
+	"answer": "1"	
+}, {
+	"question": "Wielkość gwiazdową liczymy w:",
+	"option1": "A. luksach",
+	"option2": "B: magnitudo",
+	"option3": "C: parsekach",
+	"option4": "D: kelwinach",
+	"answer": "2"	
+}, {
+	"question": "Mgławica Kraba to pozostałość po supernowej, która została zaobserwowana przez chińskich astronomów w: ",
+	"option1": "A. 1006 roku",
+	"option2": "B: 1506 roku",
+	"option3": "C: 966 roku",
+	"option4": "D: 1054 roku",
+	"answer": "4"			
 }];
