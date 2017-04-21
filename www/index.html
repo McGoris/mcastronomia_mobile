@@ -139,7 +139,7 @@
 		<div data-role="page" id="kalkulator" style="background-color: #002;">
 		
 			<div data-role="header" data-position="fixed" style="background-color: #003;">
-				<h1> Kalkulator </h1>
+				<h1><font color="#bbb"> Kalkulator </font></h1>
 				
 			</div>
 			<div data-role="main" class="ui-content">
@@ -194,21 +194,80 @@
 			
 			</div>
 			<div align="center">
-			<a href="javascript:location.reload()" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #003;"><font color="#bbb"> Resetuj </font> </a>
-			<a class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #003;" onclick="getValue();"><font color="#bbb"> Przelicz </font> </a>
-			<a href="#pageone" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #003;"><font color="#bbb"> Powrót do strony głównej </font> </a>
+			<a href="#legenda" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #344836;"><font color="#bbb"> Legenda </font> </a>
+			<a class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #344836;" onclick="getValue();"><font color="#bbb"> Przelicz </font> </a>
+			<a href="#pageone" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #565624;"><font color="#bbb"> Powrót do strony głównej </font> </a>
 			</div>
 				<br>
 			
 
 			
-			<div data-role="footer" style="background-color: #003; " data-position="fixed">
+			<div data-role="footer" style="background-color: #772;" data-position="fixed">
 			
-			<h1><font color="#eee">(c) McGoris Polska </font></h1>
+			<h1><font color="#000"> (c) McGoris Polska </font></h1>
 			
 		    </div> 
 		</div> 	
 
+		<!-- legenda -->
+		
+		
+		<div data-role="page" id="legenda" style="background-color: #002;">
+		
+			<div data-role="header" data-position="fixed" style="background-color: #003;">
+				<h1><font color="#bbb"> Legenda </font></h1>
+				
+			</div>
+			<div data-role="main" class="ui-content" >
+			
+			<font color="#bbb">
+				
+				AU - Jednostka astronomiczna 
+				<br>
+				1 AU = 149597871 km.
+				<br>
+				Jest to średnia odległość Ziemi od Słońca.
+				<br>
+				<br>
+				
+				Pc - Parsek
+				<br>
+				1 PC = 3,26 roku świetlnego
+				<br>
+				Jest to odległość, dla której 1 jednostka astronomiczna jest widoczna jako 1 sekunda kątowa.
+				<br>
+				<br>
+				Ly - Rok świetlny
+				<br>
+				1 Ly = 9460528400000 km = 63241 jednostek astronomicznych.
+				<br>
+				Jest to odległość, którą światło przemierza w ciągu roku.
+	
+				
+				
+				</font>	
+				<br>
+				<br>
+				<br>
+			<div align="center">	
+			<a href="#kalkulator" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #002;"><font color="#bbb"> Powrót </font> </a>	
+			</div>
+			</div>
+				
+			
+
+			
+			<div data-role="footer" style="background-color: #003;" data-position="fixed">
+			
+			<h1><font color="#bbb"> (c) McGoris Polska </font></h1>
+			
+		    </div> 
+		</div> 	
+		
+		
+		
+		
+		
 		<!-- informacje -->
 		
 		<div data-role="page" id="info" style="background-color: #001;">
