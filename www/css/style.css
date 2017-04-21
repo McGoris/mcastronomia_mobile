@@ -89,22 +89,13 @@
 
 #pole1
 {
-	width: 20%;
+	width: 80%;
 	float: left;
 	margin-top: 40px;
 	min-width: 40%;
 	
 }
 
-#pole2
-{
-	margin-left: 20px;
-	width: 20%;
-	float: left;
-	margin-top: 40px;
-	min-width: 40%;
-	
-}
 
 .odpowiedz
 
