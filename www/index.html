@@ -4,6 +4,7 @@
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 		<script src="js/pgb.js"></script>
 		<script src="js/quiz.js"></script>
+		<script src="js/kalk.js"></script>
 		<script src="cordova.js"></script>
 		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
 		<link rel="stylesheet" href="css/style.css" />
@@ -144,41 +145,54 @@
 			<div data-role="main" class="ui-content">
 				
 				<div id="pole1">
-					<input type="number"> </input>
+					<input type="number" id="pole"> </input>
 					<br>
+					<font color="#bbb">
 					<table border="0">
-						<tr><td>AU</td><td><input type="radio" id="radio_au1" name="a" ></input></td>
+						<tr><td>AU -> KM</td><td><input type="radio" id="au1" value="1" checked name="a" ></input></td>
 							</tr>
-						<tr><td>Pc</td><td><input type="radio" id="radio_pc1" name="a"></input></td>
+						<tr><td>Pc -> KM</td><td><input type="radio" id="pc1" value="2" name="a"></input></td>
 							</tr>
-						<tr><td>KM</td><td> <input type="radio" id="radio_km1" name="a"></input></td>
+						<tr><td>Ly -> KM</td><td> <input type="radio" id="km1" value="3" name="a"></input></td>
 							</tr>
-						<tr><td>Ly</td><td> <input type="radio" id="radio_ly1" checked name="a"></input></td>
-						</tr>
+						
+						<tr><td></td><td></td>
+							</tr>						
+							
+							
+						<tr><td>Pc -> AU</td><td><input type="radio" id="ly1" value="4" name="a"></input></td>
+							</tr>
+						<tr><td>Ly -> AU</td><td><input type="radio" id="au2" value="5" name="a"></input></td>
+							</tr>
+						<tr><td>KM -> AU</td><td><input type="radio" id="pc2" value="6" name="a"></input></td>
+							</tr>
+							
+							
+						<tr><td>Ly -> Pc</td><td> <input type="radio" id="km2" value="7" name="a"></input></td>
+							</tr>
+						<tr><td>AU -> Pc</td><td> <input type="radio" id="ly2" value="8" name="a"></input></td>
+							</tr>
+						<tr><td>KM -> Pc</td><td> <input type="radio" id="ly2" value="9" name="a"></input></td>
+							</tr>
+							
+							
+						<tr><td>Pc -> Ly</td><td> <input type="radio" id="ly2" value="10" name="a"></input></td>
+							</tr>
+						<tr><td>AU -> Ly</td><td> <input type="radio" id="ly2" value="11" name="a"></input></td>
+							</tr>
+						<tr><td>KM -> Ly</td><td> <input type="radio" id="ly2" value="12" name="a"></input></td>
+							</tr>
 					</table>
-				
-				</div>
-				
-				<div id="pole2">
-			
-					<input type="number"> </input>
-					<br>
-					<table border="0">
-						<tr><td>AU</td><td><input type="radio" id="radio_au2" name="b"></input></td>
-					</tr>
-						<tr><td>Pc</td><td><input type="radio" id="radio_pc2" name="b"></input></td>
-					</tr>
-						<tr><td>KM</td><td> <input type="radio" id="radio_km2" checked name="b"></input></td>
-					</tr>
-						<tr><td>Ly</td><td> <input type="radio" id="radio_ly2" name="b"></input></td>
-					</tr>
-					</table>
-					<input type="submit" value="Przelicz" id="przelicz" name="buton"></input>
+					</font>
+					
+				<br>
 					
 				</div>
 				
 			
 			</div>
+			<a href="javascript:location.reload()" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #003;"><font color="#bbb"> Resetuj </font> </a>
+			<a class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #003;" onclick="getValue();"><font color="#bbb"> Przelicz </font> </a>
 			<a href="#pageone" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" style="background-color: #003;"><font color="#bbb"> Powrót do strony głównej </font> </a>
 				<br>
 				

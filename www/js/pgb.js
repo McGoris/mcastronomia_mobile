@@ -14,7 +14,7 @@ function exitApp()
 	
 }
 
-var hasla = new Array(150);
+var hasla = new Array(170);
 
 
 hasla[0] = "William herschel";
@@ -167,6 +167,26 @@ hasla[146] = "wielki wóz";
 hasla[147] = "wielki pies";
 hasla[148] = "alpheratz";
 hasla[149] = "mizar i alkor";
+hasla[150] = "Trójkąt letni";
+hasla[151] = "pasy zwrotnikowe";
+hasla[152] = "rój perseidów";
+hasla[153] = "tarcza sobieskiego";
+hasla[154] = "chmura gwiazd strzelca";
+hasla[155] = "buzz aldrin";
+hasla[156] = "neil armstrong";
+hasla[157] = "pas kuipera";
+hasla[158] = "obłok oorta";
+hasla[159] = "galaktyka spiralna";
+hasla[160] = "galaktyka eliptyczna";
+hasla[161] = "edmund halley";
+hasla[162] = "jan heweliusz";
+hasla[163] = "gwiazda poranna";
+hasla[164] = "biała gwiazda ciągu głównego";
+hasla[165] = "promieniowanie hawkinga";
+hasla[166] = "czarna dziura";
+hasla[167] = "ciemna materia";
+hasla[168] = "kastor i pollux";
+hasla[169] = "halo słoneczne";
 
 
 function losuj()

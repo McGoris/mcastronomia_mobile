@@ -449,28 +449,28 @@ var questions = [{
 	"answer": "2"
 }, { 
 	"question": "Obserwatorium ESO (European South Observatory) znajduje się w: ",
-	"option1": "A. Włoszech",
+	"option1": "A: Włoszech",
 	"option2": "B: Chile",
 	"option3": "C: Argentynie",
 	"option4": "D: Grecji",
 	"answer": "2"	
 }, {
 	"question": "Promieniowanie elektromagnetyczne o długości fali powyżej 700nm nazywamy: ",
-	"option1": "A. podczerwienią",
+	"option1": "A: podczerwienią",
 	"option2": "B: światłem widzialnym",
 	"option3": "C: promieniowaniem ultrafioletowym",
 	"option4": "D: promieniowaniem rentgenowskim",
 	"answer": "1"
 }, {
 	"question": "Galaktyka Andromedy znajduje się w konstelacji: ",
-	"option1": "A. Oriona",
+	"option1": "A: Oriona",
 	"option2": "B: Łabędzia",
 	"option3": "C: Kasjopei",
 	"option4": "D: Andromedy",
 	"answer": "4"
 }, {
 	"question": "Kto odkrył, że Wszechświat się rozszerza? ",
-	"option1": "A. Tycho Brahe",
+	"option1": "A: Tycho Brahe",
 	"option2": "B: Edwin Hubble",
 	"option3": "C: Johannes Kepler",
 	"option4": "D: Isaac Newton",
@@ -498,72 +498,156 @@ var questions = [{
 	"answer": "1"		
 }, {
 	"question": "Wzór chemiczny NH4 ma: ",
-	"option1": "A. metan",
+	"option1": "A: metan",
 	"option2": "B: amoniak",
 	"option3": "C: alkohol etylowy",
 	"option4": "D: kwas azotowy",
 	"answer": "2"
 }, { 
 	"question": "Najbardziej znaną gwiazdą w konstelacji Oriona, która jest kandydatką na supernową jest: ",
-	"option1": "A. WR 104",
+	"option1": "A: WR 104",
 	"option2": "B: Betelgeza",
 	"option3": "C: Rigel",
 	"option4": "D: VV Cephei",
 	"answer": "2"	
 }, {
 	"question": "Ile obiektów liczy katalog Messiera? ",
-	"option1": "A. 110",
+	"option1": "A: 110",
 	"option2": "B: 98",
 	"option3": "C: 112",
 	"option4": "D: 106",
 	"answer": "1"
 }, {
 	"question": "Kto odkrył, że orbity planet są eliptyczne? ",
-	"option1": "A. Tycho Brahe",
+	"option1": "A: Tycho Brahe",
 	"option2": "B: Galileusz",
 	"option3": "C: Jan Heweliusz",
 	"option4": "D: Johannes Kepler",
 	"answer": "4"
 }, {
 	"question": "O ile stopni Pluton jest nachylony względem ekliptyki? ",
-	"option1": "A. 17,16°",
+	"option1": "A: 17,16°",
 	"option2": "B: 34,42°",
 	"option3": "C: 24,64°",
 	"option4": "D: 44,1°",
 	"answer": "1"
 }, {
 	"question": "Jeden parsek (1 Pc) to w przybliżeniu: ",
-	"option1": "A. 150 000 000 km",
+	"option1": "A: 150 000 000 km",
 	"option2": "B: 13 lat świetlnych",
 	"option3": "C: 3,26 roku świetlnego",
 	"option4": "D: 50 lat świetlnych",
 	"answer": "3"
 }, {
 	"question": "Gwiazdy o typie widmowym B to gwiazdy o temperaturze powierzchnii ok.: ",
-	"option1": "A. 10000 K - 30000 K",
-	"option2": "B: 7500 K - 30000 K",
+	"option1": "A: 10000 K - 30000 K",
+	"option2": "B: 7500 K - 10000 K",
 	"option3": "C: 3500 K - 5000 K",
 	"option4": "D: > 30000 K",
 	"answer": "1"
 }, {
 	"question": "Gwiazda Proxima Centauri - najbliższa nas gwiazda to jaki typ gwiazdy? ",
-	"option1": "A. czerwony karzeł",
+	"option1": "A: czerwony karzeł",
 	"option2": "B: pomarańczowy karzeł",
 	"option3": "C: żółty karzeł",
 	"option4": "D: biały karzeł",
 	"answer": "1"	
 }, {
 	"question": "Wielkość gwiazdową liczymy w:",
-	"option1": "A. luksach",
+	"option1": "A: luksach",
 	"option2": "B: magnitudo",
 	"option3": "C: parsekach",
 	"option4": "D: kelwinach",
 	"answer": "2"	
 }, {
 	"question": "Mgławica Kraba to pozostałość po supernowej, która została zaobserwowana przez chińskich astronomów w: ",
-	"option1": "A. 1006 roku",
+	"option1": "A: 1006 roku",
 	"option2": "B: 1506 roku",
 	"option3": "C: 966 roku",
 	"option4": "D: 1054 roku",
-	"answer": "4"			
+	"answer": "4"
+}, {
+	"question": "Które z gwiazd żyją najdłużej? ",
+	"option1": "A: gwiazdy Wolfa-Rayeta°",
+	"option2": "B: białe gwiazdy ciągu głównego°",
+	"option3": "C: czerwone karły°",
+	"option4": "D: błękitne gwiazd ciągu głównego°",
+	"answer": "3"
+}, {
+	"question": "Obiekty, które znajdują się za orbitą Neptuna to obiekty: ",
+	"option1": "A: transneptunowe",
+	"option2": "B: transjowiszowe",
+	"option3": "C: ciała niebieskie",
+	"option4": "D: ciemna materia",
+	"answer": "1"
+}, {
+	"question": "Który z księżyców Saturna posiada tzw. tygrysie pręgi? ",
+	"option1": "A: Tytan",
+	"option2": "B: Enceladus",
+	"option3": "C: Dion",
+	"option4": "D: Tetys",
+	"answer": "2"
+}, {
+	"question": "Jak nazywa się sonda, która dotarła do Plutona w 2015 roku? ",
+	"option1": "A: Voyager 1",
+	"option2": "B: Voyager 2",
+	"option3": "C: Cassini",
+	"option4": "D: New Horizons",
+	"answer": "4"	
+}, {
+	"question": "Która sonda jest najdalszym oddalonym obiektem wystrzelonym w kosmos ? :",
+	"option1": "A: Cassini",
+	"option2": "B: Voyager 1",
+	"option3": "C: Sputnik",
+	"option4": "D: Pioneer 10",
+	"answer": "2"	
+}, {
+	"question": "Jak się nazywa zjawisko, gdzie wiatr słoneczny osiąga przestrzeń międzygwiazdową, gdzie nagle zwalnia? ",
+	"option1": "A: szok końcowy",
+	"option2": "B: heliosfera",
+	"option3": "C: fotosfera",
+	"option4": "D: paralaksa gwiazdowa",
+	"answer": "1"	
+}, {
+	"question": "Który z księżyców w Układzie Słonecznym jako jedyny posiada grubą atmosferę? ",
+	"option1": "A: Enceladus",
+	"option2": "B: Tryton",
+	"option3": "C: Tytan",
+	"option4": "D: Ganimedes",
+	"answer": "3"
+}, {
+	"question": "Jak się nazywa pas planetoid, który jest za orbitą Neptuna i rozciąga się w odległości 30-50 AU od Słońca? ",
+	"option1": "A: Pas Kuipera",
+	"option2": "B: Obłok Oorta",
+	"option3": "C: Droga Mleczna",
+	"option4": "D: Pas neoprenowy",
+	"answer": "1"
+}, {
+	"question": "Która egzoplaneta została odkryta i potwierdzona jako pierwsza w 1995? ",
+	"option1": "A: Tau Bootis b",
+	"option2": "B: 51 Pegasi b",
+	"option3": "C: Epsilon Eridani b",
+	"option4": "D: Gliese 581 g",
+	"answer": "2"
+}, {
+	"question": "Jaki cień rzuca gnomon podczas przesilenia letniego? ",
+	"option1": "A: najdłuższy",
+	"option2": "B: taki sam jak w zimie",
+	"option3": "C: najkrótszy",
+	"option4": "D: cały czas rzuca taki sam cień",
+	"answer": "3"	
+}, {
+	"question": "Jowisz, Saturn, Uran i Neptun to planety: ",
+	"option1": "A: skaliste",
+	"option2": "B: gazowe",
+	"option3": "C: magmowe",
+	"option4": "D: karłowate",
+	"answer": "2"	
+}, {
+	"question": "Przed odkryciem gwiazd NML Cygni i UY Scuti miano największej odkrytej gwiazdy miała: ",
+	"option1": "A: Mi Cephei",
+	"option2": "B: Eta Carinae",
+	"option3": "C: KW Sagitarii",
+	"option4": "D: VY Canis Majoris",
+	"answer": "4"	
 }];
