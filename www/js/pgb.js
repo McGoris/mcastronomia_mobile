@@ -14,7 +14,7 @@ function exitApp()
 	
 }
 
-var hasla = new Array(170);
+var hasla = new Array(180);
 
 
 hasla[0] = "William herschel";
@@ -187,6 +187,16 @@ hasla[166] = "czarna dziura";
 hasla[167] = "ciemna materia";
 hasla[168] = "kastor i pollux";
 hasla[169] = "halo słoneczne";
+hasla[170] = "ceres";
+hasla[171] = "hygiea";
+hasla[172] = "tryton";
+hasla[173] = "plerion";
+hasla[174] = "pozostałość po supernowej";
+hasla[175] = "reliktowe promieniowanie tła";
+hasla[176] = "obrót wokół własnej osi";
+hasla[177] = "materia zdegenerowana";
+hasla[178] = "żółty nadolbrzym";
+hasla[179] = "siła coriolisa";
 
 
 function losuj()

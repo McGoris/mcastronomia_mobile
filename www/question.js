@@ -649,5 +649,110 @@ var questions = [{
 	"option2": "B: Eta Carinae",
 	"option3": "C: KW Sagitarii",
 	"option4": "D: VY Canis Majoris",
+	"answer": "4"
+}, {
+	"question": "Jaki średni rozmiar kątowy ma Księżyc? ",
+	"option1": "A: 45 minut kątowych",
+	"option2": "B: 30 minut kątowych",
+	"option3": "C: 1 stopień",
+	"option4": "D: 15 minut kątowych",
+	"answer": "2"	
+}, {
+	"question": "Jaka gwiazda ma największy rozmiar kątowy na niebie ?:",
+	"option1": "A: Alfa Centauri A",
+	"option2": "B: Altair",
+	"option3": "C: R Doradus",
+	"option4": "D: Syriusz",
+	"answer": "3"	
+}, {
+	"question": "Syriusz jest oddalony od Ziemi o ",
+	"option1": "A: 5,6 roku świetlnego",
+	"option2": "B: 4,3 roku świetlnego",
+	"option3": "C: 10 lat świetlnych",
+	"option4": "D: 8,6 roku świetlnego",
+	"answer": "4"
+}, {
+	"question": "Które z poniższych gwiazd są najgorętsze? ",
+	"option1": "A: gwiazdy Wolfa-Rayeta",
+	"option2": "B: gwiazdy o typie widmowym O",
+	"option3": "C: gwiazdy o typie widmowym B",
+	"option4": "D: gwiazdy o typie widmowym A",
+	"answer": "3"
+}, {
+	"question": "Która z tych gwiazd jest najchłodniejsza? ",
+	"option1": "A: gwiazda o typie widmowym M ",
+	"option2": "B: gwiazda o typie widmowym K",
+	"option3": "C: gwiazda węglowa",
+	"option4": "D: gwiazda o typie widmowym F",
+	"answer": "C"
+}, {
+	"question": "Ile pluton ma księżyców? ",
+	"option1": "A: 3",
+	"option2": "B: 5",
+	"option3": "C: 6",
+	"option4": "D: 1",
+	"answer": "2"
+}, {
+	"question": "Wielka Mgławica Oriona znajduje się: ",
+	"option1": "A: na północ od Pasa Oriona",
+	"option2": "B: na wschód od Pasa Oriona",
+	"option3": "C: na zachód od Pasa Oriona",
+	"option4": "D: na południe od Pasa Oriona",
 	"answer": "4"	
+}, {
+	"question": "Którym księżycem co do wielkości w Układzie Słonecznym jest nasz ziemski Księżyc? :",
+	"option1": "A: czwartym",
+	"option2": "B: piątym",
+	"option3": "C: trzecim",
+	"option4": "D: drugim",
+	"answer": "2"	
+}, {
+	"question": "Jaką średnicę ma Mars? ",
+	"option1": "A: ok. 0,53x średnicy Ziemi",
+	"option2": "B: ok. 0,7x średnicy Ziemi",
+	"option3": "C: ok. 0,3x średnicy Ziemi",
+	"option4": "D: jest większy od Ziemi",
+	"answer": "1"	
+}, {
+	"question": "Jaką definicję ma metal w astronomii? ",
+	"option1": "A: taki sam jak w chemii",
+	"option2": "B: jest to każdy pierwiastek cięższy od helu",
+	"option3": "C: jest to każdy pierwiastek cięższy od tlenu",
+	"option4": "D: jest to każdy pierwiastek cięższy od węgla",
+	"answer": "2"
+}, {
+	"question": "Na jakim pierwiastku w większości przypadków kończą się reakcje termojądrowe w gwieździe? ",
+	"option1": "A: na krzemie",
+	"option2": "B: na helu",
+	"option3": "C: na żelazie",
+	"option4": "D: na cyrkonie",
+	"answer": "3"
+}, {
+	"question": "Druga strona Księżyca jest oświetlona w całości, gdy widoczny z Ziemi jest: ",
+	"option1": "A: w pełni",
+	"option2": "B: w nowiu",
+	"option3": "C: w pierwszej kwadrze",
+	"option4": "D: w ostatniej kwadrze",
+	"answer": "2"
+}, {
+	"question": "Jaki cień rzuca gnomon podczas przesilenia zimowego? ",
+	"option1": "A: najdłuższy",
+	"option2": "B: taki sam jak w zimie",
+	"option3": "C: najkrótszy",
+	"option4": "D: cały czas rzuca taki sam cień",
+	"answer": "1"	
+}, {
+	"question": "Merkury, Wenus, Ziemia to planety: ",
+	"option1": "A: skaliste",
+	"option2": "B: gazowe",
+	"option3": "C: magmowe",
+	"option4": "D: karłowate",
+	"answer": "1"	
+}, {
+	"question": "Galaktyka Sombrero (M 104) znajduje się w: ",
+	"option1": "A: gwiazdozbiorze Kruka",
+	"option2": "B: gwiazdozbiorze Hydry",
+	"option3": "C: gwiazdozbiorze Panny",
+	"option4": "D: gwiazdozbiorze Lwa",
+	"answer": "3"	
 }];
